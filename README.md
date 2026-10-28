@@ -29,26 +29,28 @@
 </tr>
 </table>
 
-<br>
+<br><br>
 
-### <code>dawtrin@github ~ $ cat contacts.txt</code>
+### <code>dawtrin@github ~ $ ./connect.sh --socials</code>
 
 <p align="center">
   <a href="https://www.facebook.com/Dartwin.253" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-161b22?style=for-the-badge&logo=facebook&logoColor=1877F2" alt="Facebook" />
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
   </a>
-  &nbsp;
+  &nbsp;&nbsp;
   <a href="mailto:dattrandn@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Gmail" />
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
-  &nbsp;
+  &nbsp;&nbsp;
   <a href="https://discord.com/channels/@me" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-161b22?style=for-the-badge&logo=discord&logoColor=5865F2" alt="Discord" />
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
   </a>
-  &nbsp;
+  &nbsp;&nbsp;
   <a href="https://github.com/Dawtrin" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=39d353" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-238636?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
+
+<br>
 
 </div>
