@@ -1,0 +1,2453 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dawtrin - 6 Animated GitHub Graph Portfolio Effects</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --dim: #8b949e;
+      --green-0: #161b22;
+      --green-1: #0e4429;
+      --green-2: #006d32;
+      --green-3: #26a641;
+      --green-4: #39d353;
+      --green-neon: #69f0a0;
+      --accent: #58a6ff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace;
+      padding: 30px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    h1 {
+      font-size: 26px;
+      margin-bottom: 8px;
+      color: #fff;
+    }
+    h1 span { color: var(--green-4); }
+    p.sub {
+      color: var(--dim);
+      font-size: 14px;
+    }
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+      background: var(--card-bg);
+      padding: 6px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+    }
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--dim);
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+    .tab-btn:hover {
+      color: #fff;
+      background: rgba(255,255,255,0.05);
+    }
+    .tab-btn.active {
+      background: #238636;
+      color: #fff;
+    }
+    .viewer-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      width: 100%;
+      max-width: 940px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+    .card-top {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    .mode-desc {
+      font-size: 14px;
+      color: var(--dim);
+    }
+    .mode-desc b {
+      color: #fff;
+    }
+    .controls {
+      display: flex;
+      gap: 10px;
+    }
+    .btn {
+      background: #21262d;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 6px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn:hover {
+      background: #30363d;
+      color: #fff;
+    }
+    .canvas-container {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 280px;
+      overflow: hidden;
+    }
+    canvas {
+      display: block;
+      cursor: crosshair;
+    }
+    .tooltip {
+      position: absolute;
+      background: #000;
+      border: 1px solid var(--border);
+      color: #fff;
+      padding: 6px 10px;
+      font-size: 12px;
+      border-radius: 6px;
+      pointer-events: none;
+      display: none;
+      transform: translate(-50%, -120%);
+      white-space: nowrap;
+      z-index: 10;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+    .stats-footer {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 18px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--dim);
+    }
+    .live-count {
+      color: var(--green-4);
+      font-weight: bold;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Dawtrin's Portfolio <span>GitHub Graph</span> (6 Animations)</h1>
+    <p class="sub">Tái hiện trọn vẹn 6 hiệu ứng Canvas đỉnh cao từ bài viết của Avi Vashishta bằng dữ liệu thật của bạn.</p>
+  </header>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchMode(0)">1. The Grid (Drop-in)</button>
+    <button class="tab-btn" onclick="switchMode(1)">2. 3D Skyline</button>
+    <button class="tab-btn" onclick="switchMode(2)">3. Weekly Pulse</button>
+    <button class="tab-btn" onclick="switchMode(3)">4. Round The Year (Radar)</button>
+    <button class="tab-btn" onclick="switchMode(4)">5. The Streak Runner</button>
+    <button class="tab-btn" onclick="switchMode(5)">6. Terminal Matrix</button>
+  </div>
+
+  <div class="viewer-card">
+    <div class="card-top">
+      <div class="mode-desc" id="modeDesc"><b>1. The Grid:</b> Các ô rơi chéo (diagonal wave) nảy nhẹ, nhảy số đếm trực tiếp, rê chuột xem ngày.</div>
+      <div class="controls">
+        <button class="btn" onclick="replay()">↺ Replay</button>
+      </div>
+    </div>
+
+    <div class="canvas-container">
+      <canvas id="c" width="880" height="260"></canvas>
+      <div class="tooltip" id="tip"></div>
+    </div>
+
+    <div class="stats-footer">
+      <div>Đóng góp hiển thị: <span class="live-count" id="countDisplay">0</span> / <span id="totalDisplay">0</span></div>
+      <div>User: <b>Dawtrin</b> (RinnSan)</div>
+    </div>
+  </div>
+
+  <script>
+    // Dữ liệu đóng góp thật của Dawtrin được load từ contributions.json
+    let embeddedData = {
+ "username": "Dawtrin",
+ "fetched_at": "2026-10-28T18:17:03+00:00",
+ "total": 62,
+ "best_day": {
+  "date": "2026-07-06",
+  "count": 15
+ },
+ "current_streak": 0,
+ "longest_streak": 3,
+ "monthly": {
+  "2025-10": 1,
+  "2025-11": 3,
+  "2025-12": 4,
+  "2026-01": 2,
+  "2026-02": 2,
+  "2026-03": 4,
+  "2026-04": 6,
+  "2026-05": 2,
+  "2026-06": 0,
+  "2026-07": 18,
+  "2026-08": 12,
+  "2026-09": 2,
+  "2026-10": 6
+ },
+ "days": [
+  {
+   "date": "2025-10-26",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-10-27",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-10-28",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2025-10-29",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-10-30",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-10-31",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-01",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-02",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-03",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-04",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-05",
+   "count": 2,
+   "level": 3
+  },
+  {
+   "date": "2025-11-06",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-07",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-08",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-09",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-10",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-11",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-12",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-13",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-14",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-15",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-16",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-17",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-18",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-19",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-20",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-21",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-22",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-23",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-24",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-25",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-26",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-27",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2025-11-28",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-29",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-11-30",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-01",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2025-12-02",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-03",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-04",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2025-12-05",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-06",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-07",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-08",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-09",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-10",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-11",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-12",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-13",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-14",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-15",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-16",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-17",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-18",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-19",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-20",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-21",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2025-12-22",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2025-12-23",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-24",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-25",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-26",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-27",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-28",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-29",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-30",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2025-12-31",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-01",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-02",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-03",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-04",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-05",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-06",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-07",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-08",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-09",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-10",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-11",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-12",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-13",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-14",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-15",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-16",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-17",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-18",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-19",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-20",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-21",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-22",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-23",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-24",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2026-01-25",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2026-01-26",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-27",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-28",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-29",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-30",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-01-31",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-01",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2026-02-02",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-03",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-04",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2026-02-05",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-06",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-07",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-08",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-09",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-10",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-11",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-12",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-13",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-14",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-15",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-16",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-17",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-18",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-19",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-20",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-21",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-22",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-23",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-24",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-25",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-26",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-27",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-02-28",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-01",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-02",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-03",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-04",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-05",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-06",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-07",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2026-03-08",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-09",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-10",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-11",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-12",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-13",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-14",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-15",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-16",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2026-03-17",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-18",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-19",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-20",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-21",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-22",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2026-03-23",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-24",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-25",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-26",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-27",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2026-03-28",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-29",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-30",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-03-31",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-01",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-02",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-03",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2026-04-04",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-05",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-06",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-07",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2026-04-08",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-09",
+   "count": 3,
+   "level": 4
+  },
+  {
+   "date": "2026-04-10",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-11",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-12",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-13",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-14",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-15",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-16",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-17",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-18",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2026-04-19",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-20",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-21",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-22",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-23",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-24",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-25",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-26",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-27",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-28",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-29",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-04-30",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-01",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2026-05-02",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-03",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-04",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2026-05-05",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-06",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-07",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-08",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-09",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-10",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-11",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-12",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-13",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-14",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-15",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-16",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-17",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-18",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-19",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-20",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-21",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-22",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-23",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-24",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-25",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-26",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-27",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-28",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-29",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-30",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-05-31",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-01",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-02",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-03",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-04",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-05",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-06",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-07",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-08",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-09",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-10",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-11",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-12",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-13",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-14",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-15",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-16",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-17",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-18",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-19",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-20",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-21",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-22",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-23",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-24",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-25",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-26",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-27",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-28",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-29",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-06-30",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-01",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-02",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-03",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-04",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-05",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-06",
+   "count": 15,
+   "level": 4
+  },
+  {
+   "date": "2026-07-07",
+   "count": 3,
+   "level": 4
+  },
+  {
+   "date": "2026-07-08",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-09",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-10",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-11",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-12",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-13",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-14",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-15",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-16",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-17",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-18",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-19",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-20",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-21",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-22",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-23",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-24",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-25",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-26",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-27",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-28",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-29",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-30",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-07-31",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-01",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-02",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-03",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-04",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-05",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-06",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-07",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-08",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-09",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-10",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-11",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-12",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-13",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-14",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-15",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-16",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-17",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-18",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-19",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-20",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-21",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-22",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-23",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-24",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-25",
+   "count": 9,
+   "level": 4
+  },
+  {
+   "date": "2026-08-26",
+   "count": 2,
+   "level": 3
+  },
+  {
+   "date": "2026-08-27",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2026-08-28",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-29",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-30",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-08-31",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-01",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-02",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-03",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-04",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-05",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-06",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-07",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-08",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-09",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-10",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-11",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-12",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-13",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-14",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-15",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-16",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-17",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-18",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-19",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-20",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-21",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-22",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-23",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-24",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-25",
+   "count": 2,
+   "level": 3
+  },
+  {
+   "date": "2026-09-26",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-27",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-28",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-29",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-30",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-01",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-02",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-03",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-04",
+   "count": 2,
+   "level": 3
+  },
+  {
+   "date": "2026-10-05",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-06",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-07",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-08",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2026-10-09",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-10",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-11",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-12",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-13",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-14",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-15",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-16",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-17",
+   "count": 3,
+   "level": 4
+  },
+  {
+   "date": "2026-10-18",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-19",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-20",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-21",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-22",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-23",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-24",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-25",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-26",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-27",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-10-28",
+   "count": 0,
+   "level": 0
+  }
+ ]
+};
+    let data = embeddedData;
+    let days = [];
+    let currentMode = 0;
+    let startTime = 0;
+    let animId = null;
+    const canvas = document.getElementById('c');
+    const ctx = canvas.getContext('2d');
+    const tooltip = document.getElementById('tip');
+    const countDisplay = document.getElementById('countDisplay');
+    const totalDisplay = document.getElementById('totalDisplay');
+    const modeDesc = document.getElementById('modeDesc');
+
+    const PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353", "#69f0a0"];
+
+    const DESCRIPTIONS = [
+      "<b>1. The Grid:</b> Các ô rơi chéo với gia tốc nảy nhẹ (easeBack), số đếm nhảy theo ô rơi, rê chuột xem chi tiết.",
+      "<b>2. 3D Skyline:</b> Phối cảnh 3D không gian isometric. Chiều cao tính theo căn bậc 2 số commit, đường trỏ đỉnh cao điểm.",
+      "<b>3. Weekly Pulse:</b> Đường nhịp tim nối tổng commit các tuần trước khi 'đổ thác nước' vào 7 ngày trong tuần.",
+      "<b>4. Round The Year:</b> Toàn bộ 52 tuần cuộn thành đồng hồ tròn 360 độ gồm 7 vòng đồng tâm, kim quét tròn mượt mà.",
+      "<b>5. The Streak Runner:</b> Vệt sáng neon laser chạy xuyên suốt chuỗi đóng góp liên tục (streak) có tia hạt phát sáng.",
+      "<b>6. Terminal Matrix:</b> Lệnh terminal tự gõ, ký tự ASCII xáo trộn ma trận ngẫu nhiên rồi khóa thành . : + # @"
+    ];
+
+    async function init() {
+      try {
+        const res = await fetch('data/contributions.json');
+        /* already loaded */
+      } catch (e) {
+        // Fallback demo data if opened via file:// protocol
+        data = { total: 62, days: [] };
+        const now = new Date();
+        for (let i = 364; i >= 0; i--) {
+          const d = new Date(now.getTime() - i * 86400000);
+          const lvl = Math.random() < 0.2 ? Math.floor(Math.random() * 4) + 1 : 0;
+          data.days.push({
+            date: d.toISOString().slice(0, 10),
+            count: lvl > 0 ? lvl * 2 : 0,
+            level: lvl
+          });
+        }
+      }
+      days = data.days;
+      totalDisplay.textContent = data.total;
+      replay();
+    }
+
+    function switchMode(idx) {
+      currentMode = idx;
+      document.querySelectorAll('.tab-btn').forEach((b, i) => b.classList.toggle('active', i === idx));
+      modeDesc.innerHTML = DESCRIPTIONS[idx];
+      tooltip.style.display = 'none';
+      replay();
+    }
+
+    function replay() {
+      startTime = performance.now();
+      if (animId) cancelAnimationFrame(animId);
+      loop();
+    }
+
+    function loop() {
+      const t = performance.now() - startTime;
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      if (currentMode === 0) drawGrid(t);
+      else if (currentMode === 1) drawSkyline(t);
+      else if (currentMode === 2) drawPulse(t);
+      else if (currentMode === 3) drawRoundYear(t);
+      else if (currentMode === 4) drawStreak(t);
+      else if (currentMode === 5) drawTerminal(t);
+
+      animId = requestAnimationFrame(loop);
+    }
+
+    // 1. THE GRID
+    function drawGrid(t) {
+      const cell = 12, gap = 3, ox = 30, oy = 35;
+      let landedCount = 0;
+
+      days.forEach((d, i) => {
+        const col = Math.floor(i / 7);
+        const row = i % 7;
+        const delay = (col + row * 1.6) * 16;
+        const p = Math.min(1, Math.max(0, (t - delay) / 500));
+        if (p <= 0) return;
+
+        landedCount += d.count * p;
+        const scale = p < 1 ? (0.2 + 0.8 * (p * 1.1)) : 1;
+        const color = p < 0.6 ? PALETTE[5] : PALETTE[d.level];
+
+        const x = ox + col * (cell + gap);
+        const y = oy + row * (cell + gap) - (1 - p) * 12;
+
+        ctx.fillStyle = color;
+        ctx.beginPath();
+        ctx.roundRect(x, y, cell * scale, cell * scale, 2);
+        ctx.fill();
+      });
+
+      countDisplay.textContent = Math.round(landedCount);
+    }
+
+    // 2. 3D SKYLINE
+    function drawSkyline(t) {
+      const ox = 30, oy = 190, stepX = 14;
+      const progress = Math.min(1, t / 1800);
+      let maxDay = { count: 0, x: 0, y: 0, h: 0 };
+
+      // Render rows back to front
+      for (let r = 0; r < 7; r++) {
+        for (let col = 0; col < Math.floor(days.length / 7); col++) {
+          const idx = col * 7 + r;
+          if (idx >= days.length) continue;
+          const d = days[idx];
+          const delay = (col + r * 2) * 14;
+          const p = Math.min(1, Math.max(0, (t - delay) / 600));
+          if (p <= 0) continue;
+
+          // Height is proportional to sqrt(count)
+          const h = (d.count > 0 ? (12 + Math.sqrt(d.count) * 22) : 5) * p;
+          const x = ox + col * stepX - r * 4;
+          const y = oy + r * 6;
+
+          // Save max day for callout
+          if (d.count > maxDay.count) {
+            maxDay = { count: d.count, x: x + 5, y: y - h, h: h, date: d.date };
+          }
+
+          // Oblique 3D Building
+          // Front Face
+          ctx.fillStyle = PALETTE[d.level];
+          ctx.fillRect(x, y - h, 10, h);
+
+          // Top Face (lit)
+          ctx.fillStyle = d.level > 0 ? "#69f0a0" : "#2d333b";
+          ctx.beginPath();
+          ctx.moveTo(x, y - h);
+          ctx.lineTo(x + 4, y - h - 4);
+          ctx.lineTo(x + 14, y - h - 4);
+          ctx.lineTo(x + 10, y - h);
+          ctx.closePath();
+          ctx.fill();
+
+          // Side Face (shaded)
+          ctx.fillStyle = d.level > 0 ? "#006d32" : "#10141a";
+          ctx.beginPath();
+          ctx.moveTo(x + 10, y - h);
+          ctx.lineTo(x + 14, y - h - 4);
+          ctx.lineTo(x + 14, y - 4);
+          ctx.lineTo(x + 10, y);
+          ctx.closePath();
+          ctx.fill();
+        }
+      }
+
+      // Leader line for Peak Day
+      if (progress > 0.8 && maxDay.count > 0) {
+        ctx.strokeStyle = '#58a6ff';
+        ctx.lineWidth = 1.5;
+        ctx.beginPath();
+        ctx.moveTo(maxDay.x, maxDay.y);
+        ctx.lineTo(maxDay.x, maxDay.y - 30);
+        ctx.lineTo(maxDay.x + 35, maxDay.y - 30);
+        ctx.stroke();
+
+        ctx.fillStyle = '#fff';
+        ctx.font = '11px monospace';
+        ctx.fillText(`Top: ${maxDay.count} commits (${maxDay.date})`, maxDay.x + 40, maxDay.y - 27);
+      }
+    }
+
+    // 3. WEEKLY PULSE
+    function drawPulse(t) {
+      const weeks = Math.floor(days.length / 7);
+      const stepX = 15, ox = 40, baseLineY = 90;
+      const progress = Math.min(1, t / 1400);
+
+      // 1. Draw line chart of weekly sums
+      ctx.strokeStyle = '#39d353';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+
+      const weekSums = [];
+      for (let w = 0; w < weeks; w++) {
+        let sum = 0;
+        for (let r = 0; r < 7; r++) sum += days[w * 7 + r].count;
+        weekSums.push(sum);
+      }
+
+      const drawUpTo = Math.floor(weeks * progress);
+      for (let w = 0; w <= drawUpTo; w++) {
+        const x = ox + w * stepX;
+        const y = baseLineY - Math.min(65, weekSums[w] * 5);
+        if (w === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+      }
+      ctx.stroke();
+
+      // Glowing dot at the wave front
+      if (drawUpTo < weeks) {
+        const curX = ox + drawUpTo * stepX;
+        const curY = baseLineY - Math.min(65, weekSums[drawUpTo] * 5);
+        ctx.fillStyle = '#69f0a0';
+        ctx.shadowColor = '#69f0a0';
+        ctx.shadowBlur = 10;
+        ctx.beginPath();
+        ctx.arc(curX, curY, 4, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.shadowBlur = 0;
+      }
+
+      // 2. Waterfall pour into grid
+      if (t > 1200) {
+        const pourT = (t - 1200);
+        days.forEach((d, i) => {
+          const w = Math.floor(i / 7);
+          const r = i % 7;
+          const delay = (w * 18 + r * 30);
+          const p = Math.min(1, Math.max(0, (pourT - delay) / 400));
+          if (p <= 0) return;
+
+          const startY = baseLineY - Math.min(65, weekSums[w] * 5);
+          const endY = 130 + r * 15;
+          const curY = startY + (endY - startY) * p;
+          const x = ox + w * stepX;
+
+          ctx.fillStyle = PALETTE[d.level];
+          ctx.fillRect(x, curY, 11, 11);
+        });
+      }
+    }
+
+    // 4. ROUND THE YEAR (RADAR)
+    function drawRoundYear(t) {
+      const cx = canvas.width / 2;
+      const cy = canvas.height / 2;
+      const weeks = Math.floor(days.length / 7);
+      const sweepAngle = Math.min(Math.PI * 2, (t / 2200) * Math.PI * 2);
+
+      // Radar Hand
+      ctx.strokeStyle = 'rgba(105, 240, 160, 0.4)';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(cx, cy);
+      ctx.lineTo(cx + Math.cos(sweepAngle - Math.PI / 2) * 115, cy + Math.sin(sweepAngle - Math.PI / 2) * 115);
+      ctx.stroke();
+
+      days.forEach((d, i) => {
+        const w = Math.floor(i / 7);
+        const r = i % 7;
+        const angle = (w / weeks) * Math.PI * 2 - Math.PI / 2;
+
+        if (angle + Math.PI / 2 <= sweepAngle) {
+          const innerR = 40 + r * 10;
+          const outerR = innerR + 8;
+          const a0 = angle;
+          const a1 = angle + (Math.PI * 2 / weeks) * 0.85;
+
+          ctx.fillStyle = PALETTE[d.level];
+          ctx.beginPath();
+          ctx.arc(cx, cy, outerR, a0, a1);
+          ctx.arc(cx, cy, innerR, a1, a0, true);
+          ctx.closePath();
+          ctx.fill();
+        }
+      });
+    }
+
+    // 5. THE STREAK RUNNER
+    function drawStreak(t) {
+      const cell = 12, gap = 3, ox = 30, oy = 60;
+      // Find longest/current streak days
+      let currentStreakStart = -1;
+      for (let i = days.length - 1; i >= 0; i--) {
+        if (days[i].count > 0) currentStreakStart = i;
+        else if (currentStreakStart !== -1) break;
+      }
+      if (currentStreakStart === -1) currentStreakStart = days.length - 14;
+
+      // Draw faint base
+      days.forEach((d, i) => {
+        const col = Math.floor(i / 7);
+        const row = i % 7;
+        ctx.fillStyle = d.count > 0 ? "rgba(38, 166, 65, 0.2)" : "#161b22";
+        ctx.fillRect(ox + col * (cell + gap), oy + row * (cell + gap), cell, cell);
+      });
+
+      // Neon runner tracing the active days
+      const streakLength = days.length - currentStreakStart;
+      const progress = Math.min(1, t / 2500);
+      const runnerIdx = currentStreakStart + Math.floor(streakLength * progress);
+
+      for (let i = currentStreakStart; i <= runnerIdx && i < days.length; i++) {
+        const col = Math.floor(i / 7);
+        const row = i % 7;
+        const x = ox + col * (cell + gap);
+        const y = oy + row * (cell + gap);
+
+        ctx.fillStyle = PALETTE[4];
+        ctx.shadowColor = '#39d353';
+        ctx.shadowBlur = 8;
+        ctx.fillRect(x, y, cell, cell);
+        ctx.shadowBlur = 0;
+      }
+
+      // Counter
+      ctx.fillStyle = '#fff';
+      ctx.font = 'bold 22px monospace';
+      ctx.fillText(`Streak: Day ${Math.min(streakLength, Math.floor(streakLength * progress) + 1)}`, ox, oy + 140);
+    }
+
+    // 6. TERMINAL MATRIX
+    function drawTerminal(t) {
+      const chars = [".", ":", "+", "#", "@"];
+      const ox = 30, oy = 40, cellW = 15, cellH = 18;
+      ctx.font = '12px monospace';
+
+      // Type command
+      const cmd = "dawtrin@github:~$ git log --graph --activity";
+      const cmdProgress = Math.min(cmd.length, Math.floor(t / 40));
+      ctx.fillStyle = '#58a6ff';
+      ctx.fillText(cmd.slice(0, cmdProgress), ox, 25);
+
+      if (t > 1000) {
+        const matrixT = t - 1000;
+        days.forEach((d, i) => {
+          const col = Math.floor(i / 7);
+          const row = i % 7;
+          const x = ox + col * cellW;
+          const y = oy + row * cellH;
+
+          const lockTime = (col + row) * 20;
+          if (matrixT < lockTime) {
+            // Scrambling glyph
+            const rndChar = chars[Math.floor(Math.random() * chars.length)];
+            ctx.fillStyle = '#69f0a0';
+            ctx.fillText(rndChar, x, y);
+          } else {
+            // Settled glyph
+            ctx.fillStyle = d.level > 0 ? PALETTE[d.level] : '#30363d';
+            ctx.fillText(chars[d.level], x, y);
+          }
+        });
+      }
+    }
+
+    // Hover tooltip
+    canvas.addEventListener('mousemove', (e) => {
+      if (currentMode !== 0) {
+        tooltip.style.display = 'none';
+        return;
+      }
+      const rect = canvas.getBoundingClientRect();
+      const mx = e.clientX - rect.left;
+      const my = e.clientY - rect.top;
+      const cell = 12, gap = 3, ox = 30, oy = 35;
+
+      const col = Math.floor((mx - ox) / (cell + gap));
+      const row = Math.floor((my - oy) / (cell + gap));
+
+      if (col >= 0 && col < Math.floor(days.length / 7) && row >= 0 && row < 7) {
+        const idx = col * 7 + row;
+        if (idx < days.length) {
+          const d = days[idx];
+          tooltip.innerHTML = `<b>${d.count} contributions</b> on ${d.date}`;
+          tooltip.style.left = `${mx + 10}px`;
+          tooltip.style.top = `${my - 15}px`;
+          tooltip.style.display = 'block';
+          return;
+        }
+      }
+      tooltip.style.display = 'none';
+    });
+
+    canvas.addEventListener('mouseleave', () => tooltip.style.display = 'none');
+
+    init();
+  </script>
+</body>
+</html>
