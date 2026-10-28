@@ -24,7 +24,7 @@ STAGGER = 0.28
 TITLE = "dawtrin@github"
 ROWS = [
     ("", ""),
-    ("User", "RinnSan (Dawtrin)"),
+    ("User", "Tran Viet Dat (RinnSan)"),
     ("Role", "Software Developer & Student"),
     ("Location", "Vietnam"),
     ("", ""),
@@ -32,7 +32,7 @@ ROWS = [
     ("Interests", "Mobile Dev, Web Apps, IoT / Mesh Networks"),
     ("", ""),
     ("Projects", "emergency-mesh-desktop, Rinn_UniOps"),
-    ("Status", "Building & learning every day"),
+    ("Email", "dattrandn@gmail.com"),
     ("", ""),
     ("GitHub", "https://github.com/Dawtrin"),
 ]
