@@ -29,4 +29,30 @@
 </tr>
 </table>
 
+<br>
+
+### <code>dawtrin@github ~ $ cat contacts.txt</code>
+
+<p align="center">
+  <a href="https://facebook.com" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-161b22?style=for-the-badge&logo=facebook&logoColor=1877F2" alt="Facebook" />
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://discord.com" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-161b22?style=for-the-badge&logo=discord&logoColor=5865F2" alt="Discord" />
+  </a>
+  &nbsp;
+  <a href="mailto:contact@example.com">
+    <img src="https://img.shields.io/badge/Gmail-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Gmail" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Dawtrin" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-161b22?style=for-the-badge&logo=safari&logoColor=39d353" alt="Portfolio" />
+  </a>
+</p>
+
 </div>
