@@ -29,11 +29,14 @@ jobs:
         env:
           GITHUB_USERNAME: Dawtrin
 
-      - name: Render heatmap SVG
-        run: python scripts/render_heatmap_svg.py
+      - name: Render SVG animations
+        run: |
+          python scripts/render_heatmap_svg.py
+          python scripts/render_skyline_svg.py
+          python scripts/render_radar_svg.py
 
-      - name: Commit and push updated heatmap
+      - name: Commit and push updated assets
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: refresh contribution graph [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg"
+          commit_message: "chore: refresh contribution graph & 3D skyline [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg skyline-3d.svg round-radar.svg"

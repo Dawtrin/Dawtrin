@@ -1,0 +1,2195 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="260" viewBox="0 0 860 260" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12">
+<style>
+.b{transform-box:fill-box;transform-origin:bottom;animation:rise .6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;opacity:0}
+.b:hover rect, .b:hover polygon{filter:brightness(1.3);cursor:pointer}
+@keyframes rise{from{opacity:0;transform:scaleY(0)}to{opacity:1;transform:scaleY(1)}}
+</style>
+<rect x="0.5" y="0.5" width="859" height="259" rx="8" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="28" fill="#c9d1d9" font-weight="bold">3D Skyline - Commit City</text>
+<text x="836" y="28" text-anchor="end" fill="#8b949e">63 contributions</text>
+<g class="b" style="animation-delay:0.000s">
+<title>0 contributions on 2025-10-26</title>
+<rect x="45" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="45,201 49,197 59,197 55,201" fill="#21262d"/>
+<polygon points="55,201 59,197 59,201 55,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.012s">
+<title>0 contributions on 2025-11-02</title>
+<rect x="59" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="59,201 63,197 73,197 69,201" fill="#21262d"/>
+<polygon points="69,201 73,197 73,201 69,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.024s">
+<title>0 contributions on 2025-11-09</title>
+<rect x="73" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="73,201 77,197 87,197 83,201" fill="#21262d"/>
+<polygon points="83,201 87,197 87,201 83,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.036s">
+<title>0 contributions on 2025-11-16</title>
+<rect x="87" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="87,201 91,197 101,197 97,201" fill="#21262d"/>
+<polygon points="97,201 101,197 101,201 97,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.048s">
+<title>0 contributions on 2025-11-23</title>
+<rect x="101" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="101,201 105,197 115,197 111,201" fill="#21262d"/>
+<polygon points="111,201 115,197 115,201 111,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.060s">
+<title>0 contributions on 2025-11-30</title>
+<rect x="115" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="115,201 119,197 129,197 125,201" fill="#21262d"/>
+<polygon points="125,201 129,197 129,201 125,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.072s">
+<title>0 contributions on 2025-12-07</title>
+<rect x="129" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="129,201 133,197 143,197 139,201" fill="#21262d"/>
+<polygon points="139,201 143,197 143,201 139,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.084s">
+<title>0 contributions on 2025-12-14</title>
+<rect x="143" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="143,201 147,197 157,197 153,201" fill="#21262d"/>
+<polygon points="153,201 157,197 157,201 153,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.096s">
+<title>1 contributions on 2025-12-21</title>
+<rect x="157" y="169" width="10" height="36" fill="#006d32"/>
+<polygon points="157,169 161,165 171,165 167,169" fill="#39d353"/>
+<polygon points="167,169 171,165 171,201 167,205" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.108s">
+<title>0 contributions on 2025-12-28</title>
+<rect x="171" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="171,201 175,197 185,197 181,201" fill="#21262d"/>
+<polygon points="181,201 185,197 185,201 181,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.120s">
+<title>0 contributions on 2026-01-04</title>
+<rect x="185" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="185,201 189,197 199,197 195,201" fill="#21262d"/>
+<polygon points="195,201 199,197 199,201 195,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.132s">
+<title>0 contributions on 2026-01-11</title>
+<rect x="199" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="199,201 203,197 213,197 209,201" fill="#21262d"/>
+<polygon points="209,201 213,197 213,201 209,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.144s">
+<title>0 contributions on 2026-01-18</title>
+<rect x="213" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="213,201 217,197 227,197 223,201" fill="#21262d"/>
+<polygon points="223,201 227,197 227,201 223,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.156s">
+<title>1 contributions on 2026-01-25</title>
+<rect x="227" y="169" width="10" height="36" fill="#006d32"/>
+<polygon points="227,169 231,165 241,165 237,169" fill="#39d353"/>
+<polygon points="237,169 241,165 241,201 237,205" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.168s">
+<title>1 contributions on 2026-02-01</title>
+<rect x="241" y="169" width="10" height="36" fill="#006d32"/>
+<polygon points="241,169 245,165 255,165 251,169" fill="#39d353"/>
+<polygon points="251,169 255,165 255,201 251,205" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.180s">
+<title>0 contributions on 2026-02-08</title>
+<rect x="255" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="255,201 259,197 269,197 265,201" fill="#21262d"/>
+<polygon points="265,201 269,197 269,201 265,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.192s">
+<title>0 contributions on 2026-02-15</title>
+<rect x="269" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="269,201 273,197 283,197 279,201" fill="#21262d"/>
+<polygon points="279,201 283,197 283,201 279,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.204s">
+<title>0 contributions on 2026-02-22</title>
+<rect x="283" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="283,201 287,197 297,197 293,201" fill="#21262d"/>
+<polygon points="293,201 297,197 297,201 293,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.216s">
+<title>0 contributions on 2026-03-01</title>
+<rect x="297" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="297,201 301,197 311,197 307,201" fill="#21262d"/>
+<polygon points="307,201 311,197 311,201 307,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.228s">
+<title>0 contributions on 2026-03-08</title>
+<rect x="311" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="311,201 315,197 325,197 321,201" fill="#21262d"/>
+<polygon points="321,201 325,197 325,201 321,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.240s">
+<title>0 contributions on 2026-03-15</title>
+<rect x="325" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="325,201 329,197 339,197 335,201" fill="#21262d"/>
+<polygon points="335,201 339,197 339,201 335,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.252s">
+<title>1 contributions on 2026-03-22</title>
+<rect x="339" y="169" width="10" height="36" fill="#006d32"/>
+<polygon points="339,169 343,165 353,165 349,169" fill="#39d353"/>
+<polygon points="349,169 353,165 353,201 349,205" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.264s">
+<title>0 contributions on 2026-03-29</title>
+<rect x="353" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="353,201 357,197 367,197 363,201" fill="#21262d"/>
+<polygon points="363,201 367,197 367,201 363,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.276s">
+<title>0 contributions on 2026-04-05</title>
+<rect x="367" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="367,201 371,197 381,197 377,201" fill="#21262d"/>
+<polygon points="377,201 381,197 381,201 377,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.288s">
+<title>0 contributions on 2026-04-12</title>
+<rect x="381" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="381,201 385,197 395,197 391,201" fill="#21262d"/>
+<polygon points="391,201 395,197 395,201 391,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.300s">
+<title>0 contributions on 2026-04-19</title>
+<rect x="395" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="395,201 399,197 409,197 405,201" fill="#21262d"/>
+<polygon points="405,201 409,197 409,201 405,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.312s">
+<title>0 contributions on 2026-04-26</title>
+<rect x="409" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="409,201 413,197 423,197 419,201" fill="#21262d"/>
+<polygon points="419,201 423,197 423,201 419,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.324s">
+<title>0 contributions on 2026-05-03</title>
+<rect x="423" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="423,201 427,197 437,197 433,201" fill="#21262d"/>
+<polygon points="433,201 437,197 437,201 433,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.336s">
+<title>0 contributions on 2026-05-10</title>
+<rect x="437" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="437,201 441,197 451,197 447,201" fill="#21262d"/>
+<polygon points="447,201 451,197 451,201 447,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.348s">
+<title>0 contributions on 2026-05-17</title>
+<rect x="451" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="451,201 455,197 465,197 461,201" fill="#21262d"/>
+<polygon points="461,201 465,197 465,201 461,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.360s">
+<title>0 contributions on 2026-05-24</title>
+<rect x="465" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="465,201 469,197 479,197 475,201" fill="#21262d"/>
+<polygon points="475,201 479,197 479,201 475,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.372s">
+<title>0 contributions on 2026-05-31</title>
+<rect x="479" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="479,201 483,197 493,197 489,201" fill="#21262d"/>
+<polygon points="489,201 493,197 493,201 489,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.384s">
+<title>0 contributions on 2026-06-07</title>
+<rect x="493" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="493,201 497,197 507,197 503,201" fill="#21262d"/>
+<polygon points="503,201 507,197 507,201 503,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.396s">
+<title>0 contributions on 2026-06-14</title>
+<rect x="507" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="507,201 511,197 521,197 517,201" fill="#21262d"/>
+<polygon points="517,201 521,197 521,201 517,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.408s">
+<title>0 contributions on 2026-06-21</title>
+<rect x="521" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="521,201 525,197 535,197 531,201" fill="#21262d"/>
+<polygon points="531,201 535,197 535,201 531,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.420s">
+<title>0 contributions on 2026-06-28</title>
+<rect x="535" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="535,201 539,197 549,197 545,201" fill="#21262d"/>
+<polygon points="545,201 549,197 549,201 545,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.432s">
+<title>0 contributions on 2026-07-05</title>
+<rect x="549" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="549,201 553,197 563,197 559,201" fill="#21262d"/>
+<polygon points="559,201 563,197 563,201 559,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.444s">
+<title>0 contributions on 2026-07-12</title>
+<rect x="563" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="563,201 567,197 577,197 573,201" fill="#21262d"/>
+<polygon points="573,201 577,197 577,201 573,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.456s">
+<title>0 contributions on 2026-07-19</title>
+<rect x="577" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="577,201 581,197 591,197 587,201" fill="#21262d"/>
+<polygon points="587,201 591,197 591,201 587,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.468s">
+<title>0 contributions on 2026-07-26</title>
+<rect x="591" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="591,201 595,197 605,197 601,201" fill="#21262d"/>
+<polygon points="601,201 605,197 605,201 601,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.480s">
+<title>0 contributions on 2026-08-02</title>
+<rect x="605" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="605,201 609,197 619,197 615,201" fill="#21262d"/>
+<polygon points="615,201 619,197 619,201 615,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.492s">
+<title>0 contributions on 2026-08-09</title>
+<rect x="619" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="619,201 623,197 633,197 629,201" fill="#21262d"/>
+<polygon points="629,201 633,197 633,201 629,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.504s">
+<title>0 contributions on 2026-08-16</title>
+<rect x="633" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="633,201 637,197 647,197 643,201" fill="#21262d"/>
+<polygon points="643,201 647,197 647,201 643,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.516s">
+<title>0 contributions on 2026-08-23</title>
+<rect x="647" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="647,201 651,197 661,197 657,201" fill="#21262d"/>
+<polygon points="657,201 661,197 661,201 657,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.528s">
+<title>0 contributions on 2026-08-30</title>
+<rect x="661" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="661,201 665,197 675,197 671,201" fill="#21262d"/>
+<polygon points="671,201 675,197 675,201 671,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.540s">
+<title>0 contributions on 2026-09-06</title>
+<rect x="675" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="675,201 679,197 689,197 685,201" fill="#21262d"/>
+<polygon points="685,201 689,197 689,201 685,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.552s">
+<title>0 contributions on 2026-09-13</title>
+<rect x="689" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="689,201 693,197 703,197 699,201" fill="#21262d"/>
+<polygon points="699,201 703,197 703,201 699,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.564s">
+<title>0 contributions on 2026-09-20</title>
+<rect x="703" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="703,201 707,197 717,197 713,201" fill="#21262d"/>
+<polygon points="713,201 717,197 717,201 713,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.576s">
+<title>0 contributions on 2026-09-27</title>
+<rect x="717" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="717,201 721,197 731,197 727,201" fill="#21262d"/>
+<polygon points="727,201 731,197 731,201 727,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.588s">
+<title>2 contributions on 2026-10-04</title>
+<rect x="731" y="160" width="10" height="45" fill="#26a641"/>
+<polygon points="731,160 735,156 745,156 741,160" fill="#56d364"/>
+<polygon points="741,160 745,156 745,201 741,205" fill="#196c2e"/>
+</g>
+<g class="b" style="animation-delay:0.600s">
+<title>0 contributions on 2026-10-11</title>
+<rect x="745" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="745,201 749,197 759,197 755,201" fill="#21262d"/>
+<polygon points="755,201 759,197 759,201 755,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.612s">
+<title>0 contributions on 2026-10-18</title>
+<rect x="759" y="201" width="10" height="4" fill="#161b22"/>
+<polygon points="759,201 763,197 773,197 769,201" fill="#21262d"/>
+<polygon points="769,201 773,197 773,201 769,205" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.024s">
+<title>0 contributions on 2025-10-27</title>
+<rect x="41" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="41,207 45,203 55,203 51,207" fill="#21262d"/>
+<polygon points="51,207 55,203 55,207 51,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.036s">
+<title>0 contributions on 2025-11-03</title>
+<rect x="55" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="55,207 59,203 69,203 65,207" fill="#21262d"/>
+<polygon points="65,207 69,203 69,207 65,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.048s">
+<title>0 contributions on 2025-11-10</title>
+<rect x="69" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="69,207 73,203 83,203 79,207" fill="#21262d"/>
+<polygon points="79,207 83,203 83,207 79,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.060s">
+<title>0 contributions on 2025-11-17</title>
+<rect x="83" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="83,207 87,203 97,203 93,207" fill="#21262d"/>
+<polygon points="93,207 97,203 97,207 93,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.072s">
+<title>0 contributions on 2025-11-24</title>
+<rect x="97" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="97,207 101,203 111,203 107,207" fill="#21262d"/>
+<polygon points="107,207 111,203 111,207 107,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.084s">
+<title>1 contributions on 2025-12-01</title>
+<rect x="111" y="175" width="10" height="36" fill="#006d32"/>
+<polygon points="111,175 115,171 125,171 121,175" fill="#39d353"/>
+<polygon points="121,175 125,171 125,207 121,211" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.096s">
+<title>0 contributions on 2025-12-08</title>
+<rect x="125" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="125,207 129,203 139,203 135,207" fill="#21262d"/>
+<polygon points="135,207 139,203 139,207 135,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.108s">
+<title>0 contributions on 2025-12-15</title>
+<rect x="139" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="139,207 143,203 153,203 149,207" fill="#21262d"/>
+<polygon points="149,207 153,203 153,207 149,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.120s">
+<title>1 contributions on 2025-12-22</title>
+<rect x="153" y="175" width="10" height="36" fill="#006d32"/>
+<polygon points="153,175 157,171 167,171 163,175" fill="#39d353"/>
+<polygon points="163,175 167,171 167,207 163,211" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.132s">
+<title>0 contributions on 2025-12-29</title>
+<rect x="167" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="167,207 171,203 181,203 177,207" fill="#21262d"/>
+<polygon points="177,207 181,203 181,207 177,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.144s">
+<title>0 contributions on 2026-01-05</title>
+<rect x="181" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="181,207 185,203 195,203 191,207" fill="#21262d"/>
+<polygon points="191,207 195,203 195,207 191,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.156s">
+<title>0 contributions on 2026-01-12</title>
+<rect x="195" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="195,207 199,203 209,203 205,207" fill="#21262d"/>
+<polygon points="205,207 209,203 209,207 205,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.168s">
+<title>0 contributions on 2026-01-19</title>
+<rect x="209" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="209,207 213,203 223,203 219,207" fill="#21262d"/>
+<polygon points="219,207 223,203 223,207 219,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.180s">
+<title>0 contributions on 2026-01-26</title>
+<rect x="223" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="223,207 227,203 237,203 233,207" fill="#21262d"/>
+<polygon points="233,207 237,203 237,207 233,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.192s">
+<title>0 contributions on 2026-02-02</title>
+<rect x="237" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="237,207 241,203 251,203 247,207" fill="#21262d"/>
+<polygon points="247,207 251,203 251,207 247,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.204s">
+<title>0 contributions on 2026-02-09</title>
+<rect x="251" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="251,207 255,203 265,203 261,207" fill="#21262d"/>
+<polygon points="261,207 265,203 265,207 261,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.216s">
+<title>0 contributions on 2026-02-16</title>
+<rect x="265" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="265,207 269,203 279,203 275,207" fill="#21262d"/>
+<polygon points="275,207 279,203 279,207 275,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.228s">
+<title>0 contributions on 2026-02-23</title>
+<rect x="279" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="279,207 283,203 293,203 289,207" fill="#21262d"/>
+<polygon points="289,207 293,203 293,207 289,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.240s">
+<title>0 contributions on 2026-03-02</title>
+<rect x="293" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="293,207 297,203 307,203 303,207" fill="#21262d"/>
+<polygon points="303,207 307,203 307,207 303,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.252s">
+<title>0 contributions on 2026-03-09</title>
+<rect x="307" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="307,207 311,203 321,203 317,207" fill="#21262d"/>
+<polygon points="317,207 321,203 321,207 317,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.264s">
+<title>1 contributions on 2026-03-16</title>
+<rect x="321" y="175" width="10" height="36" fill="#006d32"/>
+<polygon points="321,175 325,171 335,171 331,175" fill="#39d353"/>
+<polygon points="331,175 335,171 335,207 331,211" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.276s">
+<title>0 contributions on 2026-03-23</title>
+<rect x="335" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="335,207 339,203 349,203 345,207" fill="#21262d"/>
+<polygon points="345,207 349,203 349,207 345,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.288s">
+<title>0 contributions on 2026-03-30</title>
+<rect x="349" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="349,207 353,203 363,203 359,207" fill="#21262d"/>
+<polygon points="359,207 363,203 363,207 359,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.300s">
+<title>0 contributions on 2026-04-06</title>
+<rect x="363" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="363,207 367,203 377,203 373,207" fill="#21262d"/>
+<polygon points="373,207 377,203 377,207 373,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.312s">
+<title>0 contributions on 2026-04-13</title>
+<rect x="377" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="377,207 381,203 391,203 387,207" fill="#21262d"/>
+<polygon points="387,207 391,203 391,207 387,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.324s">
+<title>0 contributions on 2026-04-20</title>
+<rect x="391" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="391,207 395,203 405,203 401,207" fill="#21262d"/>
+<polygon points="401,207 405,203 405,207 401,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.336s">
+<title>0 contributions on 2026-04-27</title>
+<rect x="405" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="405,207 409,203 419,203 415,207" fill="#21262d"/>
+<polygon points="415,207 419,203 419,207 415,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.348s">
+<title>1 contributions on 2026-05-04</title>
+<rect x="419" y="175" width="10" height="36" fill="#006d32"/>
+<polygon points="419,175 423,171 433,171 429,175" fill="#39d353"/>
+<polygon points="429,175 433,171 433,207 429,211" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.360s">
+<title>0 contributions on 2026-05-11</title>
+<rect x="433" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="433,207 437,203 447,203 443,207" fill="#21262d"/>
+<polygon points="443,207 447,203 447,207 443,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.372s">
+<title>0 contributions on 2026-05-18</title>
+<rect x="447" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="447,207 451,203 461,203 457,207" fill="#21262d"/>
+<polygon points="457,207 461,203 461,207 457,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.384s">
+<title>0 contributions on 2026-05-25</title>
+<rect x="461" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="461,207 465,203 475,203 471,207" fill="#21262d"/>
+<polygon points="471,207 475,203 475,207 471,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.396s">
+<title>0 contributions on 2026-06-01</title>
+<rect x="475" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="475,207 479,203 489,203 485,207" fill="#21262d"/>
+<polygon points="485,207 489,203 489,207 485,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.408s">
+<title>0 contributions on 2026-06-08</title>
+<rect x="489" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="489,207 493,203 503,203 499,207" fill="#21262d"/>
+<polygon points="499,207 503,203 503,207 499,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.420s">
+<title>0 contributions on 2026-06-15</title>
+<rect x="503" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="503,207 507,203 517,203 513,207" fill="#21262d"/>
+<polygon points="513,207 517,203 517,207 513,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.432s">
+<title>0 contributions on 2026-06-22</title>
+<rect x="517" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="517,207 521,203 531,203 527,207" fill="#21262d"/>
+<polygon points="527,207 531,203 531,207 527,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.444s">
+<title>0 contributions on 2026-06-29</title>
+<rect x="531" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="531,207 535,203 545,203 541,207" fill="#21262d"/>
+<polygon points="541,207 545,203 545,207 541,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.456s">
+<title>15 contributions on 2026-07-06</title>
+<rect x="545" y="107" width="10" height="104" fill="#39d353"/>
+<polygon points="545,107 549,103 559,103 555,107" fill="#7ee787"/>
+<polygon points="555,107 559,103 559,207 555,211" fill="#238636"/>
+</g>
+<g class="b" style="animation-delay:0.468s">
+<title>0 contributions on 2026-07-13</title>
+<rect x="559" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="559,207 563,203 573,203 569,207" fill="#21262d"/>
+<polygon points="569,207 573,203 573,207 569,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.480s">
+<title>0 contributions on 2026-07-20</title>
+<rect x="573" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="573,207 577,203 587,203 583,207" fill="#21262d"/>
+<polygon points="583,207 587,203 587,207 583,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.492s">
+<title>0 contributions on 2026-07-27</title>
+<rect x="587" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="587,207 591,203 601,203 597,207" fill="#21262d"/>
+<polygon points="597,207 601,203 601,207 597,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.504s">
+<title>0 contributions on 2026-08-03</title>
+<rect x="601" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="601,207 605,203 615,203 611,207" fill="#21262d"/>
+<polygon points="611,207 615,203 615,207 611,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.516s">
+<title>0 contributions on 2026-08-10</title>
+<rect x="615" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="615,207 619,203 629,203 625,207" fill="#21262d"/>
+<polygon points="625,207 629,203 629,207 625,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.528s">
+<title>0 contributions on 2026-08-17</title>
+<rect x="629" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="629,207 633,203 643,203 639,207" fill="#21262d"/>
+<polygon points="639,207 643,203 643,207 639,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.540s">
+<title>0 contributions on 2026-08-24</title>
+<rect x="643" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="643,207 647,203 657,203 653,207" fill="#21262d"/>
+<polygon points="653,207 657,203 657,207 653,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.552s">
+<title>0 contributions on 2026-08-31</title>
+<rect x="657" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="657,207 661,203 671,203 667,207" fill="#21262d"/>
+<polygon points="667,207 671,203 671,207 667,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.564s">
+<title>0 contributions on 2026-09-07</title>
+<rect x="671" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="671,207 675,203 685,203 681,207" fill="#21262d"/>
+<polygon points="681,207 685,203 685,207 681,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.576s">
+<title>0 contributions on 2026-09-14</title>
+<rect x="685" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="685,207 689,203 699,203 695,207" fill="#21262d"/>
+<polygon points="695,207 699,203 699,207 695,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.588s">
+<title>0 contributions on 2026-09-21</title>
+<rect x="699" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="699,207 703,203 713,203 709,207" fill="#21262d"/>
+<polygon points="709,207 713,203 713,207 709,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.600s">
+<title>0 contributions on 2026-09-28</title>
+<rect x="713" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="713,207 717,203 727,203 723,207" fill="#21262d"/>
+<polygon points="723,207 727,203 727,207 723,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.612s">
+<title>0 contributions on 2026-10-05</title>
+<rect x="727" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="727,207 731,203 741,203 737,207" fill="#21262d"/>
+<polygon points="737,207 741,203 741,207 737,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.624s">
+<title>0 contributions on 2026-10-12</title>
+<rect x="741" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="741,207 745,203 755,203 751,207" fill="#21262d"/>
+<polygon points="751,207 755,203 755,207 751,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.636s">
+<title>0 contributions on 2026-10-19</title>
+<rect x="755" y="207" width="10" height="4" fill="#161b22"/>
+<polygon points="755,207 759,203 769,203 765,207" fill="#21262d"/>
+<polygon points="765,207 769,203 769,207 765,211" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.048s">
+<title>1 contributions on 2025-10-28</title>
+<rect x="37" y="181" width="10" height="36" fill="#006d32"/>
+<polygon points="37,181 41,177 51,177 47,181" fill="#39d353"/>
+<polygon points="47,181 51,177 51,213 47,217" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.060s">
+<title>0 contributions on 2025-11-04</title>
+<rect x="51" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="51,213 55,209 65,209 61,213" fill="#21262d"/>
+<polygon points="61,213 65,209 65,213 61,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.072s">
+<title>0 contributions on 2025-11-11</title>
+<rect x="65" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="65,213 69,209 79,209 75,213" fill="#21262d"/>
+<polygon points="75,213 79,209 79,213 75,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.084s">
+<title>0 contributions on 2025-11-18</title>
+<rect x="79" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="79,213 83,209 93,209 89,213" fill="#21262d"/>
+<polygon points="89,213 93,209 93,213 89,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.096s">
+<title>0 contributions on 2025-11-25</title>
+<rect x="93" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="93,213 97,209 107,209 103,213" fill="#21262d"/>
+<polygon points="103,213 107,209 107,213 103,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.108s">
+<title>0 contributions on 2025-12-02</title>
+<rect x="107" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="107,213 111,209 121,209 117,213" fill="#21262d"/>
+<polygon points="117,213 121,209 121,213 117,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.120s">
+<title>0 contributions on 2025-12-09</title>
+<rect x="121" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="121,213 125,209 135,209 131,213" fill="#21262d"/>
+<polygon points="131,213 135,209 135,213 131,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.132s">
+<title>0 contributions on 2025-12-16</title>
+<rect x="135" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="135,213 139,209 149,209 145,213" fill="#21262d"/>
+<polygon points="145,213 149,209 149,213 145,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.144s">
+<title>0 contributions on 2025-12-23</title>
+<rect x="149" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="149,213 153,209 163,209 159,213" fill="#21262d"/>
+<polygon points="159,213 163,209 163,213 159,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.156s">
+<title>0 contributions on 2025-12-30</title>
+<rect x="163" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="163,213 167,209 177,209 173,213" fill="#21262d"/>
+<polygon points="173,213 177,209 177,213 173,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.168s">
+<title>0 contributions on 2026-01-06</title>
+<rect x="177" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="177,213 181,209 191,209 187,213" fill="#21262d"/>
+<polygon points="187,213 191,209 191,213 187,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.180s">
+<title>0 contributions on 2026-01-13</title>
+<rect x="191" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="191,213 195,209 205,209 201,213" fill="#21262d"/>
+<polygon points="201,213 205,209 205,213 201,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.192s">
+<title>0 contributions on 2026-01-20</title>
+<rect x="205" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="205,213 209,209 219,209 215,213" fill="#21262d"/>
+<polygon points="215,213 219,209 219,213 215,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.204s">
+<title>0 contributions on 2026-01-27</title>
+<rect x="219" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="219,213 223,209 233,209 229,213" fill="#21262d"/>
+<polygon points="229,213 233,209 233,213 229,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.216s">
+<title>0 contributions on 2026-02-03</title>
+<rect x="233" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="233,213 237,209 247,209 243,213" fill="#21262d"/>
+<polygon points="243,213 247,209 247,213 243,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.228s">
+<title>0 contributions on 2026-02-10</title>
+<rect x="247" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="247,213 251,209 261,209 257,213" fill="#21262d"/>
+<polygon points="257,213 261,209 261,213 257,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.240s">
+<title>0 contributions on 2026-02-17</title>
+<rect x="261" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="261,213 265,209 275,209 271,213" fill="#21262d"/>
+<polygon points="271,213 275,209 275,213 271,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.252s">
+<title>0 contributions on 2026-02-24</title>
+<rect x="275" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="275,213 279,209 289,209 285,213" fill="#21262d"/>
+<polygon points="285,213 289,209 289,213 285,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.264s">
+<title>0 contributions on 2026-03-03</title>
+<rect x="289" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="289,213 293,209 303,209 299,213" fill="#21262d"/>
+<polygon points="299,213 303,209 303,213 299,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.276s">
+<title>0 contributions on 2026-03-10</title>
+<rect x="303" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="303,213 307,209 317,209 313,213" fill="#21262d"/>
+<polygon points="313,213 317,209 317,213 313,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.288s">
+<title>0 contributions on 2026-03-17</title>
+<rect x="317" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="317,213 321,209 331,209 327,213" fill="#21262d"/>
+<polygon points="327,213 331,209 331,213 327,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.300s">
+<title>0 contributions on 2026-03-24</title>
+<rect x="331" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="331,213 335,209 345,209 341,213" fill="#21262d"/>
+<polygon points="341,213 345,209 345,213 341,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.312s">
+<title>0 contributions on 2026-03-31</title>
+<rect x="345" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="345,213 349,209 359,209 355,213" fill="#21262d"/>
+<polygon points="355,213 359,209 359,213 355,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.324s">
+<title>1 contributions on 2026-04-07</title>
+<rect x="359" y="181" width="10" height="36" fill="#006d32"/>
+<polygon points="359,181 363,177 373,177 369,181" fill="#39d353"/>
+<polygon points="369,181 373,177 373,213 369,217" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.336s">
+<title>0 contributions on 2026-04-14</title>
+<rect x="373" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="373,213 377,209 387,209 383,213" fill="#21262d"/>
+<polygon points="383,213 387,209 387,213 383,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.348s">
+<title>0 contributions on 2026-04-21</title>
+<rect x="387" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="387,213 391,209 401,209 397,213" fill="#21262d"/>
+<polygon points="397,213 401,209 401,213 397,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.360s">
+<title>0 contributions on 2026-04-28</title>
+<rect x="401" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="401,213 405,209 415,209 411,213" fill="#21262d"/>
+<polygon points="411,213 415,209 415,213 411,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.372s">
+<title>0 contributions on 2026-05-05</title>
+<rect x="415" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="415,213 419,209 429,209 425,213" fill="#21262d"/>
+<polygon points="425,213 429,209 429,213 425,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.384s">
+<title>0 contributions on 2026-05-12</title>
+<rect x="429" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="429,213 433,209 443,209 439,213" fill="#21262d"/>
+<polygon points="439,213 443,209 443,213 439,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.396s">
+<title>0 contributions on 2026-05-19</title>
+<rect x="443" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="443,213 447,209 457,209 453,213" fill="#21262d"/>
+<polygon points="453,213 457,209 457,213 453,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.408s">
+<title>0 contributions on 2026-05-26</title>
+<rect x="457" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="457,213 461,209 471,209 467,213" fill="#21262d"/>
+<polygon points="467,213 471,209 471,213 467,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.420s">
+<title>0 contributions on 2026-06-02</title>
+<rect x="471" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="471,213 475,209 485,209 481,213" fill="#21262d"/>
+<polygon points="481,213 485,209 485,213 481,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.432s">
+<title>0 contributions on 2026-06-09</title>
+<rect x="485" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="485,213 489,209 499,209 495,213" fill="#21262d"/>
+<polygon points="495,213 499,209 499,213 495,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.444s">
+<title>0 contributions on 2026-06-16</title>
+<rect x="499" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="499,213 503,209 513,209 509,213" fill="#21262d"/>
+<polygon points="509,213 513,209 513,213 509,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.456s">
+<title>0 contributions on 2026-06-23</title>
+<rect x="513" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="513,213 517,209 527,209 523,213" fill="#21262d"/>
+<polygon points="523,213 527,209 527,213 523,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.468s">
+<title>0 contributions on 2026-06-30</title>
+<rect x="527" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="527,213 531,209 541,209 537,213" fill="#21262d"/>
+<polygon points="537,213 541,209 541,213 537,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.480s">
+<title>3 contributions on 2026-07-07</title>
+<rect x="541" y="164" width="10" height="53" fill="#39d353"/>
+<polygon points="541,164 545,160 555,160 551,164" fill="#7ee787"/>
+<polygon points="551,164 555,160 555,213 551,217" fill="#238636"/>
+</g>
+<g class="b" style="animation-delay:0.492s">
+<title>0 contributions on 2026-07-14</title>
+<rect x="555" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="555,213 559,209 569,209 565,213" fill="#21262d"/>
+<polygon points="565,213 569,209 569,213 565,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.504s">
+<title>0 contributions on 2026-07-21</title>
+<rect x="569" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="569,213 573,209 583,209 579,213" fill="#21262d"/>
+<polygon points="579,213 583,209 583,213 579,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.516s">
+<title>0 contributions on 2026-07-28</title>
+<rect x="583" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="583,213 587,209 597,209 593,213" fill="#21262d"/>
+<polygon points="593,213 597,209 597,213 593,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.528s">
+<title>0 contributions on 2026-08-04</title>
+<rect x="597" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="597,213 601,209 611,209 607,213" fill="#21262d"/>
+<polygon points="607,213 611,209 611,213 607,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.540s">
+<title>0 contributions on 2026-08-11</title>
+<rect x="611" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="611,213 615,209 625,209 621,213" fill="#21262d"/>
+<polygon points="621,213 625,209 625,213 621,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.552s">
+<title>0 contributions on 2026-08-18</title>
+<rect x="625" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="625,213 629,209 639,209 635,213" fill="#21262d"/>
+<polygon points="635,213 639,209 639,213 635,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.564s">
+<title>9 contributions on 2026-08-25</title>
+<rect x="639" y="133" width="10" height="84" fill="#39d353"/>
+<polygon points="639,133 643,129 653,129 649,133" fill="#7ee787"/>
+<polygon points="649,133 653,129 653,213 649,217" fill="#238636"/>
+</g>
+<g class="b" style="animation-delay:0.576s">
+<title>0 contributions on 2026-09-01</title>
+<rect x="653" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="653,213 657,209 667,209 663,213" fill="#21262d"/>
+<polygon points="663,213 667,209 667,213 663,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.588s">
+<title>0 contributions on 2026-09-08</title>
+<rect x="667" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="667,213 671,209 681,209 677,213" fill="#21262d"/>
+<polygon points="677,213 681,209 681,213 677,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.600s">
+<title>0 contributions on 2026-09-15</title>
+<rect x="681" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="681,213 685,209 695,209 691,213" fill="#21262d"/>
+<polygon points="691,213 695,209 695,213 691,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.612s">
+<title>0 contributions on 2026-09-22</title>
+<rect x="695" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="695,213 699,209 709,209 705,213" fill="#21262d"/>
+<polygon points="705,213 709,209 709,213 705,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.624s">
+<title>0 contributions on 2026-09-29</title>
+<rect x="709" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="709,213 713,209 723,209 719,213" fill="#21262d"/>
+<polygon points="719,213 723,209 723,213 719,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.636s">
+<title>0 contributions on 2026-10-06</title>
+<rect x="723" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="723,213 727,209 737,209 733,213" fill="#21262d"/>
+<polygon points="733,213 737,209 737,213 733,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.648s">
+<title>0 contributions on 2026-10-13</title>
+<rect x="737" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="737,213 741,209 751,209 747,213" fill="#21262d"/>
+<polygon points="747,213 751,209 751,213 747,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.660s">
+<title>0 contributions on 2026-10-20</title>
+<rect x="751" y="213" width="10" height="4" fill="#161b22"/>
+<polygon points="751,213 755,209 765,209 761,213" fill="#21262d"/>
+<polygon points="761,213 765,209 765,213 761,217" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.072s">
+<title>0 contributions on 2025-10-29</title>
+<rect x="33" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="33,219 37,215 47,215 43,219" fill="#21262d"/>
+<polygon points="43,219 47,215 47,219 43,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.084s">
+<title>2 contributions on 2025-11-05</title>
+<rect x="47" y="178" width="10" height="45" fill="#26a641"/>
+<polygon points="47,178 51,174 61,174 57,178" fill="#56d364"/>
+<polygon points="57,178 61,174 61,219 57,223" fill="#196c2e"/>
+</g>
+<g class="b" style="animation-delay:0.096s">
+<title>0 contributions on 2025-11-12</title>
+<rect x="61" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="61,219 65,215 75,215 71,219" fill="#21262d"/>
+<polygon points="71,219 75,215 75,219 71,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.108s">
+<title>0 contributions on 2025-11-19</title>
+<rect x="75" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="75,219 79,215 89,215 85,219" fill="#21262d"/>
+<polygon points="85,219 89,215 89,219 85,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.120s">
+<title>0 contributions on 2025-11-26</title>
+<rect x="89" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="89,219 93,215 103,215 99,219" fill="#21262d"/>
+<polygon points="99,219 103,215 103,219 99,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.132s">
+<title>0 contributions on 2025-12-03</title>
+<rect x="103" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="103,219 107,215 117,215 113,219" fill="#21262d"/>
+<polygon points="113,219 117,215 117,219 113,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.144s">
+<title>0 contributions on 2025-12-10</title>
+<rect x="117" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="117,219 121,215 131,215 127,219" fill="#21262d"/>
+<polygon points="127,219 131,215 131,219 127,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.156s">
+<title>0 contributions on 2025-12-17</title>
+<rect x="131" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="131,219 135,215 145,215 141,219" fill="#21262d"/>
+<polygon points="141,219 145,215 145,219 141,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.168s">
+<title>0 contributions on 2025-12-24</title>
+<rect x="145" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="145,219 149,215 159,215 155,219" fill="#21262d"/>
+<polygon points="155,219 159,215 159,219 155,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.180s">
+<title>0 contributions on 2025-12-31</title>
+<rect x="159" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="159,219 163,215 173,215 169,219" fill="#21262d"/>
+<polygon points="169,219 173,215 173,219 169,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.192s">
+<title>0 contributions on 2026-01-07</title>
+<rect x="173" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="173,219 177,215 187,215 183,219" fill="#21262d"/>
+<polygon points="183,219 187,215 187,219 183,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.204s">
+<title>0 contributions on 2026-01-14</title>
+<rect x="187" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="187,219 191,215 201,215 197,219" fill="#21262d"/>
+<polygon points="197,219 201,215 201,219 197,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.216s">
+<title>0 contributions on 2026-01-21</title>
+<rect x="201" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="201,219 205,215 215,215 211,219" fill="#21262d"/>
+<polygon points="211,219 215,215 215,219 211,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.228s">
+<title>0 contributions on 2026-01-28</title>
+<rect x="215" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="215,219 219,215 229,215 225,219" fill="#21262d"/>
+<polygon points="225,219 229,215 229,219 225,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.240s">
+<title>1 contributions on 2026-02-04</title>
+<rect x="229" y="187" width="10" height="36" fill="#006d32"/>
+<polygon points="229,187 233,183 243,183 239,187" fill="#39d353"/>
+<polygon points="239,187 243,183 243,219 239,223" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.252s">
+<title>0 contributions on 2026-02-11</title>
+<rect x="243" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="243,219 247,215 257,215 253,219" fill="#21262d"/>
+<polygon points="253,219 257,215 257,219 253,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.264s">
+<title>0 contributions on 2026-02-18</title>
+<rect x="257" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="257,219 261,215 271,215 267,219" fill="#21262d"/>
+<polygon points="267,219 271,215 271,219 267,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.276s">
+<title>0 contributions on 2026-02-25</title>
+<rect x="271" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="271,219 275,215 285,215 281,219" fill="#21262d"/>
+<polygon points="281,219 285,215 285,219 281,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.288s">
+<title>0 contributions on 2026-03-04</title>
+<rect x="285" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="285,219 289,215 299,215 295,219" fill="#21262d"/>
+<polygon points="295,219 299,215 299,219 295,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.300s">
+<title>0 contributions on 2026-03-11</title>
+<rect x="299" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="299,219 303,215 313,215 309,219" fill="#21262d"/>
+<polygon points="309,219 313,215 313,219 309,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.312s">
+<title>0 contributions on 2026-03-18</title>
+<rect x="313" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="313,219 317,215 327,215 323,219" fill="#21262d"/>
+<polygon points="323,219 327,215 327,219 323,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.324s">
+<title>0 contributions on 2026-03-25</title>
+<rect x="327" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="327,219 331,215 341,215 337,219" fill="#21262d"/>
+<polygon points="337,219 341,215 341,219 337,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.336s">
+<title>0 contributions on 2026-04-01</title>
+<rect x="341" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="341,219 345,215 355,215 351,219" fill="#21262d"/>
+<polygon points="351,219 355,215 355,219 351,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.348s">
+<title>0 contributions on 2026-04-08</title>
+<rect x="355" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="355,219 359,215 369,215 365,219" fill="#21262d"/>
+<polygon points="365,219 369,215 369,219 365,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.360s">
+<title>0 contributions on 2026-04-15</title>
+<rect x="369" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="369,219 373,215 383,215 379,219" fill="#21262d"/>
+<polygon points="379,219 383,215 383,219 379,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.372s">
+<title>0 contributions on 2026-04-22</title>
+<rect x="383" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="383,219 387,215 397,215 393,219" fill="#21262d"/>
+<polygon points="393,219 397,215 397,219 393,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.384s">
+<title>0 contributions on 2026-04-29</title>
+<rect x="397" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="397,219 401,215 411,215 407,219" fill="#21262d"/>
+<polygon points="407,219 411,215 411,219 407,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.396s">
+<title>0 contributions on 2026-05-06</title>
+<rect x="411" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="411,219 415,215 425,215 421,219" fill="#21262d"/>
+<polygon points="421,219 425,215 425,219 421,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.408s">
+<title>0 contributions on 2026-05-13</title>
+<rect x="425" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="425,219 429,215 439,215 435,219" fill="#21262d"/>
+<polygon points="435,219 439,215 439,219 435,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.420s">
+<title>0 contributions on 2026-05-20</title>
+<rect x="439" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="439,219 443,215 453,215 449,219" fill="#21262d"/>
+<polygon points="449,219 453,215 453,219 449,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.432s">
+<title>0 contributions on 2026-05-27</title>
+<rect x="453" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="453,219 457,215 467,215 463,219" fill="#21262d"/>
+<polygon points="463,219 467,215 467,219 463,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.444s">
+<title>0 contributions on 2026-06-03</title>
+<rect x="467" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="467,219 471,215 481,215 477,219" fill="#21262d"/>
+<polygon points="477,219 481,215 481,219 477,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.456s">
+<title>0 contributions on 2026-06-10</title>
+<rect x="481" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="481,219 485,215 495,215 491,219" fill="#21262d"/>
+<polygon points="491,219 495,215 495,219 491,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.468s">
+<title>0 contributions on 2026-06-17</title>
+<rect x="495" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="495,219 499,215 509,215 505,219" fill="#21262d"/>
+<polygon points="505,219 509,215 509,219 505,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.480s">
+<title>0 contributions on 2026-06-24</title>
+<rect x="509" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="509,219 513,215 523,215 519,219" fill="#21262d"/>
+<polygon points="519,219 523,215 523,219 519,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.492s">
+<title>0 contributions on 2026-07-01</title>
+<rect x="523" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="523,219 527,215 537,215 533,219" fill="#21262d"/>
+<polygon points="533,219 537,215 537,219 533,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.504s">
+<title>0 contributions on 2026-07-08</title>
+<rect x="537" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="537,219 541,215 551,215 547,219" fill="#21262d"/>
+<polygon points="547,219 551,215 551,219 547,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.516s">
+<title>0 contributions on 2026-07-15</title>
+<rect x="551" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="551,219 555,215 565,215 561,219" fill="#21262d"/>
+<polygon points="561,219 565,215 565,219 561,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.528s">
+<title>0 contributions on 2026-07-22</title>
+<rect x="565" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="565,219 569,215 579,215 575,219" fill="#21262d"/>
+<polygon points="575,219 579,215 579,219 575,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.540s">
+<title>0 contributions on 2026-07-29</title>
+<rect x="579" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="579,219 583,215 593,215 589,219" fill="#21262d"/>
+<polygon points="589,219 593,215 593,219 589,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.552s">
+<title>0 contributions on 2026-08-05</title>
+<rect x="593" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="593,219 597,215 607,215 603,219" fill="#21262d"/>
+<polygon points="603,219 607,215 607,219 603,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.564s">
+<title>0 contributions on 2026-08-12</title>
+<rect x="607" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="607,219 611,215 621,215 617,219" fill="#21262d"/>
+<polygon points="617,219 621,215 621,219 617,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.576s">
+<title>0 contributions on 2026-08-19</title>
+<rect x="621" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="621,219 625,215 635,215 631,219" fill="#21262d"/>
+<polygon points="631,219 635,215 635,219 631,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.588s">
+<title>2 contributions on 2026-08-26</title>
+<rect x="635" y="178" width="10" height="45" fill="#26a641"/>
+<polygon points="635,178 639,174 649,174 645,178" fill="#56d364"/>
+<polygon points="645,178 649,174 649,219 645,223" fill="#196c2e"/>
+</g>
+<g class="b" style="animation-delay:0.600s">
+<title>0 contributions on 2026-09-02</title>
+<rect x="649" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="649,219 653,215 663,215 659,219" fill="#21262d"/>
+<polygon points="659,219 663,215 663,219 659,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.612s">
+<title>0 contributions on 2026-09-09</title>
+<rect x="663" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="663,219 667,215 677,215 673,219" fill="#21262d"/>
+<polygon points="673,219 677,215 677,219 673,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.624s">
+<title>0 contributions on 2026-09-16</title>
+<rect x="677" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="677,219 681,215 691,215 687,219" fill="#21262d"/>
+<polygon points="687,219 691,215 691,219 687,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.636s">
+<title>0 contributions on 2026-09-23</title>
+<rect x="691" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="691,219 695,215 705,215 701,219" fill="#21262d"/>
+<polygon points="701,219 705,215 705,219 701,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.648s">
+<title>0 contributions on 2026-09-30</title>
+<rect x="705" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="705,219 709,215 719,215 715,219" fill="#21262d"/>
+<polygon points="715,219 719,215 719,219 715,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.660s">
+<title>0 contributions on 2026-10-07</title>
+<rect x="719" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="719,219 723,215 733,215 729,219" fill="#21262d"/>
+<polygon points="729,219 733,215 733,219 729,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.672s">
+<title>0 contributions on 2026-10-14</title>
+<rect x="733" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="733,219 737,215 747,215 743,219" fill="#21262d"/>
+<polygon points="743,219 747,215 747,219 743,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.684s">
+<title>0 contributions on 2026-10-21</title>
+<rect x="747" y="219" width="10" height="4" fill="#161b22"/>
+<polygon points="747,219 751,215 761,215 757,219" fill="#21262d"/>
+<polygon points="757,219 761,215 761,219 757,223" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.096s">
+<title>0 contributions on 2025-10-30</title>
+<rect x="29" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="29,225 33,221 43,221 39,225" fill="#21262d"/>
+<polygon points="39,225 43,221 43,225 39,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.108s">
+<title>0 contributions on 2025-11-06</title>
+<rect x="43" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="43,225 47,221 57,221 53,225" fill="#21262d"/>
+<polygon points="53,225 57,221 57,225 53,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.120s">
+<title>0 contributions on 2025-11-13</title>
+<rect x="57" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="57,225 61,221 71,221 67,225" fill="#21262d"/>
+<polygon points="67,225 71,221 71,225 67,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.132s">
+<title>0 contributions on 2025-11-20</title>
+<rect x="71" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="71,225 75,221 85,221 81,225" fill="#21262d"/>
+<polygon points="81,225 85,221 85,225 81,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.144s">
+<title>1 contributions on 2025-11-27</title>
+<rect x="85" y="193" width="10" height="36" fill="#006d32"/>
+<polygon points="85,193 89,189 99,189 95,193" fill="#39d353"/>
+<polygon points="95,193 99,189 99,225 95,229" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.156s">
+<title>1 contributions on 2025-12-04</title>
+<rect x="99" y="193" width="10" height="36" fill="#006d32"/>
+<polygon points="99,193 103,189 113,189 109,193" fill="#39d353"/>
+<polygon points="109,193 113,189 113,225 109,229" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.168s">
+<title>0 contributions on 2025-12-11</title>
+<rect x="113" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="113,225 117,221 127,221 123,225" fill="#21262d"/>
+<polygon points="123,225 127,221 127,225 123,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.180s">
+<title>0 contributions on 2025-12-18</title>
+<rect x="127" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="127,225 131,221 141,221 137,225" fill="#21262d"/>
+<polygon points="137,225 141,221 141,225 137,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.192s">
+<title>0 contributions on 2025-12-25</title>
+<rect x="141" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="141,225 145,221 155,221 151,225" fill="#21262d"/>
+<polygon points="151,225 155,221 155,225 151,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.204s">
+<title>0 contributions on 2026-01-01</title>
+<rect x="155" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="155,225 159,221 169,221 165,225" fill="#21262d"/>
+<polygon points="165,225 169,221 169,225 165,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.216s">
+<title>0 contributions on 2026-01-08</title>
+<rect x="169" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="169,225 173,221 183,221 179,225" fill="#21262d"/>
+<polygon points="179,225 183,221 183,225 179,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.228s">
+<title>0 contributions on 2026-01-15</title>
+<rect x="183" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="183,225 187,221 197,221 193,225" fill="#21262d"/>
+<polygon points="193,225 197,221 197,225 193,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.240s">
+<title>0 contributions on 2026-01-22</title>
+<rect x="197" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="197,225 201,221 211,221 207,225" fill="#21262d"/>
+<polygon points="207,225 211,221 211,225 207,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.252s">
+<title>0 contributions on 2026-01-29</title>
+<rect x="211" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="211,225 215,221 225,221 221,225" fill="#21262d"/>
+<polygon points="221,225 225,221 225,225 221,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.264s">
+<title>0 contributions on 2026-02-05</title>
+<rect x="225" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="225,225 229,221 239,221 235,225" fill="#21262d"/>
+<polygon points="235,225 239,221 239,225 235,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.276s">
+<title>0 contributions on 2026-02-12</title>
+<rect x="239" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="239,225 243,221 253,221 249,225" fill="#21262d"/>
+<polygon points="249,225 253,221 253,225 249,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.288s">
+<title>0 contributions on 2026-02-19</title>
+<rect x="253" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="253,225 257,221 267,221 263,225" fill="#21262d"/>
+<polygon points="263,225 267,221 267,225 263,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.300s">
+<title>0 contributions on 2026-02-26</title>
+<rect x="267" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="267,225 271,221 281,221 277,225" fill="#21262d"/>
+<polygon points="277,225 281,221 281,225 277,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.312s">
+<title>0 contributions on 2026-03-05</title>
+<rect x="281" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="281,225 285,221 295,221 291,225" fill="#21262d"/>
+<polygon points="291,225 295,221 295,225 291,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.324s">
+<title>0 contributions on 2026-03-12</title>
+<rect x="295" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="295,225 299,221 309,221 305,225" fill="#21262d"/>
+<polygon points="305,225 309,221 309,225 305,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.336s">
+<title>0 contributions on 2026-03-19</title>
+<rect x="309" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="309,225 313,221 323,221 319,225" fill="#21262d"/>
+<polygon points="319,225 323,221 323,225 319,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.348s">
+<title>0 contributions on 2026-03-26</title>
+<rect x="323" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="323,225 327,221 337,221 333,225" fill="#21262d"/>
+<polygon points="333,225 337,221 337,225 333,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.360s">
+<title>0 contributions on 2026-04-02</title>
+<rect x="337" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="337,225 341,221 351,221 347,225" fill="#21262d"/>
+<polygon points="347,225 351,221 351,225 347,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.372s">
+<title>3 contributions on 2026-04-09</title>
+<rect x="351" y="176" width="10" height="53" fill="#39d353"/>
+<polygon points="351,176 355,172 365,172 361,176" fill="#7ee787"/>
+<polygon points="361,176 365,172 365,225 361,229" fill="#238636"/>
+</g>
+<g class="b" style="animation-delay:0.384s">
+<title>0 contributions on 2026-04-16</title>
+<rect x="365" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="365,225 369,221 379,221 375,225" fill="#21262d"/>
+<polygon points="375,225 379,221 379,225 375,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.396s">
+<title>0 contributions on 2026-04-23</title>
+<rect x="379" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="379,225 383,221 393,221 389,225" fill="#21262d"/>
+<polygon points="389,225 393,221 393,225 389,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.408s">
+<title>0 contributions on 2026-04-30</title>
+<rect x="393" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="393,225 397,221 407,221 403,225" fill="#21262d"/>
+<polygon points="403,225 407,221 407,225 403,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.420s">
+<title>0 contributions on 2026-05-07</title>
+<rect x="407" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="407,225 411,221 421,221 417,225" fill="#21262d"/>
+<polygon points="417,225 421,221 421,225 417,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.432s">
+<title>0 contributions on 2026-05-14</title>
+<rect x="421" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="421,225 425,221 435,221 431,225" fill="#21262d"/>
+<polygon points="431,225 435,221 435,225 431,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.444s">
+<title>0 contributions on 2026-05-21</title>
+<rect x="435" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="435,225 439,221 449,221 445,225" fill="#21262d"/>
+<polygon points="445,225 449,221 449,225 445,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.456s">
+<title>0 contributions on 2026-05-28</title>
+<rect x="449" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="449,225 453,221 463,221 459,225" fill="#21262d"/>
+<polygon points="459,225 463,221 463,225 459,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.468s">
+<title>0 contributions on 2026-06-04</title>
+<rect x="463" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="463,225 467,221 477,221 473,225" fill="#21262d"/>
+<polygon points="473,225 477,221 477,225 473,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.480s">
+<title>0 contributions on 2026-06-11</title>
+<rect x="477" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="477,225 481,221 491,221 487,225" fill="#21262d"/>
+<polygon points="487,225 491,221 491,225 487,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.492s">
+<title>0 contributions on 2026-06-18</title>
+<rect x="491" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="491,225 495,221 505,221 501,225" fill="#21262d"/>
+<polygon points="501,225 505,221 505,225 501,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.504s">
+<title>0 contributions on 2026-06-25</title>
+<rect x="505" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="505,225 509,221 519,221 515,225" fill="#21262d"/>
+<polygon points="515,225 519,221 519,225 515,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.516s">
+<title>0 contributions on 2026-07-02</title>
+<rect x="519" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="519,225 523,221 533,221 529,225" fill="#21262d"/>
+<polygon points="529,225 533,221 533,225 529,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.528s">
+<title>0 contributions on 2026-07-09</title>
+<rect x="533" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="533,225 537,221 547,221 543,225" fill="#21262d"/>
+<polygon points="543,225 547,221 547,225 543,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.540s">
+<title>0 contributions on 2026-07-16</title>
+<rect x="547" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="547,225 551,221 561,221 557,225" fill="#21262d"/>
+<polygon points="557,225 561,221 561,225 557,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.552s">
+<title>0 contributions on 2026-07-23</title>
+<rect x="561" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="561,225 565,221 575,221 571,225" fill="#21262d"/>
+<polygon points="571,225 575,221 575,225 571,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.564s">
+<title>0 contributions on 2026-07-30</title>
+<rect x="575" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="575,225 579,221 589,221 585,225" fill="#21262d"/>
+<polygon points="585,225 589,221 589,225 585,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.576s">
+<title>0 contributions on 2026-08-06</title>
+<rect x="589" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="589,225 593,221 603,221 599,225" fill="#21262d"/>
+<polygon points="599,225 603,221 603,225 599,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.588s">
+<title>0 contributions on 2026-08-13</title>
+<rect x="603" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="603,225 607,221 617,221 613,225" fill="#21262d"/>
+<polygon points="613,225 617,221 617,225 613,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.600s">
+<title>0 contributions on 2026-08-20</title>
+<rect x="617" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="617,225 621,221 631,221 627,225" fill="#21262d"/>
+<polygon points="627,225 631,221 631,225 627,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.612s">
+<title>1 contributions on 2026-08-27</title>
+<rect x="631" y="193" width="10" height="36" fill="#006d32"/>
+<polygon points="631,193 635,189 645,189 641,193" fill="#39d353"/>
+<polygon points="641,193 645,189 645,225 641,229" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.624s">
+<title>0 contributions on 2026-09-03</title>
+<rect x="645" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="645,225 649,221 659,221 655,225" fill="#21262d"/>
+<polygon points="655,225 659,221 659,225 655,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.636s">
+<title>0 contributions on 2026-09-10</title>
+<rect x="659" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="659,225 663,221 673,221 669,225" fill="#21262d"/>
+<polygon points="669,225 673,221 673,225 669,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.648s">
+<title>0 contributions on 2026-09-17</title>
+<rect x="673" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="673,225 677,221 687,221 683,225" fill="#21262d"/>
+<polygon points="683,225 687,221 687,225 683,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.660s">
+<title>0 contributions on 2026-09-24</title>
+<rect x="687" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="687,225 691,221 701,221 697,225" fill="#21262d"/>
+<polygon points="697,225 701,221 701,225 697,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.672s">
+<title>0 contributions on 2026-10-01</title>
+<rect x="701" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="701,225 705,221 715,221 711,225" fill="#21262d"/>
+<polygon points="711,225 715,221 715,225 711,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.684s">
+<title>1 contributions on 2026-10-08</title>
+<rect x="715" y="193" width="10" height="36" fill="#006d32"/>
+<polygon points="715,193 719,189 729,189 725,193" fill="#39d353"/>
+<polygon points="725,193 729,189 729,225 725,229" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.696s">
+<title>0 contributions on 2026-10-15</title>
+<rect x="729" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="729,225 733,221 743,221 739,225" fill="#21262d"/>
+<polygon points="739,225 743,221 743,225 739,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.708s">
+<title>0 contributions on 2026-10-22</title>
+<rect x="743" y="225" width="10" height="4" fill="#161b22"/>
+<polygon points="743,225 747,221 757,221 753,225" fill="#21262d"/>
+<polygon points="753,225 757,221 757,225 753,229" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.120s">
+<title>0 contributions on 2025-10-31</title>
+<rect x="25" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="25,231 29,227 39,227 35,231" fill="#21262d"/>
+<polygon points="35,231 39,227 39,231 35,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.132s">
+<title>0 contributions on 2025-11-07</title>
+<rect x="39" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="39,231 43,227 53,227 49,231" fill="#21262d"/>
+<polygon points="49,231 53,227 53,231 49,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.144s">
+<title>0 contributions on 2025-11-14</title>
+<rect x="53" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="53,231 57,227 67,227 63,231" fill="#21262d"/>
+<polygon points="63,231 67,227 67,231 63,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.156s">
+<title>0 contributions on 2025-11-21</title>
+<rect x="67" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="67,231 71,227 81,227 77,231" fill="#21262d"/>
+<polygon points="77,231 81,227 81,231 77,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.168s">
+<title>0 contributions on 2025-11-28</title>
+<rect x="81" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="81,231 85,227 95,227 91,231" fill="#21262d"/>
+<polygon points="91,231 95,227 95,231 91,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.180s">
+<title>0 contributions on 2025-12-05</title>
+<rect x="95" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="95,231 99,227 109,227 105,231" fill="#21262d"/>
+<polygon points="105,231 109,227 109,231 105,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.192s">
+<title>0 contributions on 2025-12-12</title>
+<rect x="109" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="109,231 113,227 123,227 119,231" fill="#21262d"/>
+<polygon points="119,231 123,227 123,231 119,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.204s">
+<title>0 contributions on 2025-12-19</title>
+<rect x="123" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="123,231 127,227 137,227 133,231" fill="#21262d"/>
+<polygon points="133,231 137,227 137,231 133,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.216s">
+<title>0 contributions on 2025-12-26</title>
+<rect x="137" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="137,231 141,227 151,227 147,231" fill="#21262d"/>
+<polygon points="147,231 151,227 151,231 147,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.228s">
+<title>0 contributions on 2026-01-02</title>
+<rect x="151" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="151,231 155,227 165,227 161,231" fill="#21262d"/>
+<polygon points="161,231 165,227 165,231 161,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.240s">
+<title>0 contributions on 2026-01-09</title>
+<rect x="165" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="165,231 169,227 179,227 175,231" fill="#21262d"/>
+<polygon points="175,231 179,227 179,231 175,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.252s">
+<title>0 contributions on 2026-01-16</title>
+<rect x="179" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="179,231 183,227 193,227 189,231" fill="#21262d"/>
+<polygon points="189,231 193,227 193,231 189,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.264s">
+<title>0 contributions on 2026-01-23</title>
+<rect x="193" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="193,231 197,227 207,227 203,231" fill="#21262d"/>
+<polygon points="203,231 207,227 207,231 203,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.276s">
+<title>0 contributions on 2026-01-30</title>
+<rect x="207" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="207,231 211,227 221,227 217,231" fill="#21262d"/>
+<polygon points="217,231 221,227 221,231 217,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.288s">
+<title>0 contributions on 2026-02-06</title>
+<rect x="221" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="221,231 225,227 235,227 231,231" fill="#21262d"/>
+<polygon points="231,231 235,227 235,231 231,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.300s">
+<title>0 contributions on 2026-02-13</title>
+<rect x="235" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="235,231 239,227 249,227 245,231" fill="#21262d"/>
+<polygon points="245,231 249,227 249,231 245,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.312s">
+<title>0 contributions on 2026-02-20</title>
+<rect x="249" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="249,231 253,227 263,227 259,231" fill="#21262d"/>
+<polygon points="259,231 263,227 263,231 259,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.324s">
+<title>0 contributions on 2026-02-27</title>
+<rect x="263" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="263,231 267,227 277,227 273,231" fill="#21262d"/>
+<polygon points="273,231 277,227 277,231 273,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.336s">
+<title>0 contributions on 2026-03-06</title>
+<rect x="277" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="277,231 281,227 291,227 287,231" fill="#21262d"/>
+<polygon points="287,231 291,227 291,231 287,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.348s">
+<title>0 contributions on 2026-03-13</title>
+<rect x="291" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="291,231 295,227 305,227 301,231" fill="#21262d"/>
+<polygon points="301,231 305,227 305,231 301,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.360s">
+<title>0 contributions on 2026-03-20</title>
+<rect x="305" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="305,231 309,227 319,227 315,231" fill="#21262d"/>
+<polygon points="315,231 319,227 319,231 315,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.372s">
+<title>1 contributions on 2026-03-27</title>
+<rect x="319" y="199" width="10" height="36" fill="#006d32"/>
+<polygon points="319,199 323,195 333,195 329,199" fill="#39d353"/>
+<polygon points="329,199 333,195 333,231 329,235" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.384s">
+<title>1 contributions on 2026-04-03</title>
+<rect x="333" y="199" width="10" height="36" fill="#006d32"/>
+<polygon points="333,199 337,195 347,195 343,199" fill="#39d353"/>
+<polygon points="343,199 347,195 347,231 343,235" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.396s">
+<title>0 contributions on 2026-04-10</title>
+<rect x="347" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="347,231 351,227 361,227 357,231" fill="#21262d"/>
+<polygon points="357,231 361,227 361,231 357,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.408s">
+<title>0 contributions on 2026-04-17</title>
+<rect x="361" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="361,231 365,227 375,227 371,231" fill="#21262d"/>
+<polygon points="371,231 375,227 375,231 371,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.420s">
+<title>0 contributions on 2026-04-24</title>
+<rect x="375" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="375,231 379,227 389,227 385,231" fill="#21262d"/>
+<polygon points="385,231 389,227 389,231 385,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.432s">
+<title>1 contributions on 2026-05-01</title>
+<rect x="389" y="199" width="10" height="36" fill="#006d32"/>
+<polygon points="389,199 393,195 403,195 399,199" fill="#39d353"/>
+<polygon points="399,199 403,195 403,231 399,235" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.444s">
+<title>0 contributions on 2026-05-08</title>
+<rect x="403" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="403,231 407,227 417,227 413,231" fill="#21262d"/>
+<polygon points="413,231 417,227 417,231 413,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.456s">
+<title>0 contributions on 2026-05-15</title>
+<rect x="417" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="417,231 421,227 431,227 427,231" fill="#21262d"/>
+<polygon points="427,231 431,227 431,231 427,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.468s">
+<title>0 contributions on 2026-05-22</title>
+<rect x="431" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="431,231 435,227 445,227 441,231" fill="#21262d"/>
+<polygon points="441,231 445,227 445,231 441,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.480s">
+<title>0 contributions on 2026-05-29</title>
+<rect x="445" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="445,231 449,227 459,227 455,231" fill="#21262d"/>
+<polygon points="455,231 459,227 459,231 455,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.492s">
+<title>0 contributions on 2026-06-05</title>
+<rect x="459" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="459,231 463,227 473,227 469,231" fill="#21262d"/>
+<polygon points="469,231 473,227 473,231 469,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.504s">
+<title>0 contributions on 2026-06-12</title>
+<rect x="473" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="473,231 477,227 487,227 483,231" fill="#21262d"/>
+<polygon points="483,231 487,227 487,231 483,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.516s">
+<title>0 contributions on 2026-06-19</title>
+<rect x="487" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="487,231 491,227 501,227 497,231" fill="#21262d"/>
+<polygon points="497,231 501,227 501,231 497,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.528s">
+<title>0 contributions on 2026-06-26</title>
+<rect x="501" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="501,231 505,227 515,227 511,231" fill="#21262d"/>
+<polygon points="511,231 515,227 515,231 511,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.540s">
+<title>0 contributions on 2026-07-03</title>
+<rect x="515" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="515,231 519,227 529,227 525,231" fill="#21262d"/>
+<polygon points="525,231 529,227 529,231 525,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.552s">
+<title>0 contributions on 2026-07-10</title>
+<rect x="529" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="529,231 533,227 543,227 539,231" fill="#21262d"/>
+<polygon points="539,231 543,227 543,231 539,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.564s">
+<title>0 contributions on 2026-07-17</title>
+<rect x="543" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="543,231 547,227 557,227 553,231" fill="#21262d"/>
+<polygon points="553,231 557,227 557,231 553,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.576s">
+<title>0 contributions on 2026-07-24</title>
+<rect x="557" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="557,231 561,227 571,227 567,231" fill="#21262d"/>
+<polygon points="567,231 571,227 571,231 567,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.588s">
+<title>0 contributions on 2026-07-31</title>
+<rect x="571" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="571,231 575,227 585,227 581,231" fill="#21262d"/>
+<polygon points="581,231 585,227 585,231 581,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.600s">
+<title>0 contributions on 2026-08-07</title>
+<rect x="585" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="585,231 589,227 599,227 595,231" fill="#21262d"/>
+<polygon points="595,231 599,227 599,231 595,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.612s">
+<title>0 contributions on 2026-08-14</title>
+<rect x="599" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="599,231 603,227 613,227 609,231" fill="#21262d"/>
+<polygon points="609,231 613,227 613,231 609,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.624s">
+<title>0 contributions on 2026-08-21</title>
+<rect x="613" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="613,231 617,227 627,227 623,231" fill="#21262d"/>
+<polygon points="623,231 627,227 627,231 623,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.636s">
+<title>0 contributions on 2026-08-28</title>
+<rect x="627" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="627,231 631,227 641,227 637,231" fill="#21262d"/>
+<polygon points="637,231 641,227 641,231 637,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.648s">
+<title>0 contributions on 2026-09-04</title>
+<rect x="641" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="641,231 645,227 655,227 651,231" fill="#21262d"/>
+<polygon points="651,231 655,227 655,231 651,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.660s">
+<title>0 contributions on 2026-09-11</title>
+<rect x="655" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="655,231 659,227 669,227 665,231" fill="#21262d"/>
+<polygon points="665,231 669,227 669,231 665,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.672s">
+<title>0 contributions on 2026-09-18</title>
+<rect x="669" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="669,231 673,227 683,227 679,231" fill="#21262d"/>
+<polygon points="679,231 683,227 683,231 679,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.684s">
+<title>2 contributions on 2026-09-25</title>
+<rect x="683" y="190" width="10" height="45" fill="#26a641"/>
+<polygon points="683,190 687,186 697,186 693,190" fill="#56d364"/>
+<polygon points="693,190 697,186 697,231 693,235" fill="#196c2e"/>
+</g>
+<g class="b" style="animation-delay:0.696s">
+<title>0 contributions on 2026-10-02</title>
+<rect x="697" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="697,231 701,227 711,227 707,231" fill="#21262d"/>
+<polygon points="707,231 711,227 711,231 707,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.708s">
+<title>0 contributions on 2026-10-09</title>
+<rect x="711" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="711,231 715,227 725,227 721,231" fill="#21262d"/>
+<polygon points="721,231 725,227 725,231 721,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.720s">
+<title>0 contributions on 2026-10-16</title>
+<rect x="725" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="725,231 729,227 739,227 735,231" fill="#21262d"/>
+<polygon points="735,231 739,227 739,231 735,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.732s">
+<title>0 contributions on 2026-10-23</title>
+<rect x="739" y="231" width="10" height="4" fill="#161b22"/>
+<polygon points="739,231 743,227 753,227 749,231" fill="#21262d"/>
+<polygon points="749,231 753,227 753,231 749,235" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.144s">
+<title>0 contributions on 2025-11-01</title>
+<rect x="21" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="21,237 25,233 35,233 31,237" fill="#21262d"/>
+<polygon points="31,237 35,233 35,237 31,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.156s">
+<title>0 contributions on 2025-11-08</title>
+<rect x="35" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="35,237 39,233 49,233 45,237" fill="#21262d"/>
+<polygon points="45,237 49,233 49,237 45,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.168s">
+<title>0 contributions on 2025-11-15</title>
+<rect x="49" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="49,237 53,233 63,233 59,237" fill="#21262d"/>
+<polygon points="59,237 63,233 63,237 59,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.180s">
+<title>0 contributions on 2025-11-22</title>
+<rect x="63" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="63,237 67,233 77,233 73,237" fill="#21262d"/>
+<polygon points="73,237 77,233 77,237 73,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.192s">
+<title>0 contributions on 2025-11-29</title>
+<rect x="77" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="77,237 81,233 91,233 87,237" fill="#21262d"/>
+<polygon points="87,237 91,233 91,237 87,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.204s">
+<title>0 contributions on 2025-12-06</title>
+<rect x="91" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="91,237 95,233 105,233 101,237" fill="#21262d"/>
+<polygon points="101,237 105,233 105,237 101,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.216s">
+<title>0 contributions on 2025-12-13</title>
+<rect x="105" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="105,237 109,233 119,233 115,237" fill="#21262d"/>
+<polygon points="115,237 119,233 119,237 115,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.228s">
+<title>0 contributions on 2025-12-20</title>
+<rect x="119" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="119,237 123,233 133,233 129,237" fill="#21262d"/>
+<polygon points="129,237 133,233 133,237 129,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.240s">
+<title>0 contributions on 2025-12-27</title>
+<rect x="133" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="133,237 137,233 147,233 143,237" fill="#21262d"/>
+<polygon points="143,237 147,233 147,237 143,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.252s">
+<title>0 contributions on 2026-01-03</title>
+<rect x="147" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="147,237 151,233 161,233 157,237" fill="#21262d"/>
+<polygon points="157,237 161,233 161,237 157,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.264s">
+<title>0 contributions on 2026-01-10</title>
+<rect x="161" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="161,237 165,233 175,233 171,237" fill="#21262d"/>
+<polygon points="171,237 175,233 175,237 171,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.276s">
+<title>0 contributions on 2026-01-17</title>
+<rect x="175" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="175,237 179,233 189,233 185,237" fill="#21262d"/>
+<polygon points="185,237 189,233 189,237 185,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.288s">
+<title>1 contributions on 2026-01-24</title>
+<rect x="189" y="205" width="10" height="36" fill="#006d32"/>
+<polygon points="189,205 193,201 203,201 199,205" fill="#39d353"/>
+<polygon points="199,205 203,201 203,237 199,241" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.300s">
+<title>0 contributions on 2026-01-31</title>
+<rect x="203" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="203,237 207,233 217,233 213,237" fill="#21262d"/>
+<polygon points="213,237 217,233 217,237 213,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.312s">
+<title>0 contributions on 2026-02-07</title>
+<rect x="217" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="217,237 221,233 231,233 227,237" fill="#21262d"/>
+<polygon points="227,237 231,233 231,237 227,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.324s">
+<title>0 contributions on 2026-02-14</title>
+<rect x="231" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="231,237 235,233 245,233 241,237" fill="#21262d"/>
+<polygon points="241,237 245,233 245,237 241,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.336s">
+<title>0 contributions on 2026-02-21</title>
+<rect x="245" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="245,237 249,233 259,233 255,237" fill="#21262d"/>
+<polygon points="255,237 259,233 259,237 255,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.348s">
+<title>0 contributions on 2026-02-28</title>
+<rect x="259" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="259,237 263,233 273,233 269,237" fill="#21262d"/>
+<polygon points="269,237 273,233 273,237 269,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.360s">
+<title>1 contributions on 2026-03-07</title>
+<rect x="273" y="205" width="10" height="36" fill="#006d32"/>
+<polygon points="273,205 277,201 287,201 283,205" fill="#39d353"/>
+<polygon points="283,205 287,201 287,237 283,241" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.372s">
+<title>0 contributions on 2026-03-14</title>
+<rect x="287" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="287,237 291,233 301,233 297,237" fill="#21262d"/>
+<polygon points="297,237 301,233 301,237 297,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.384s">
+<title>0 contributions on 2026-03-21</title>
+<rect x="301" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="301,237 305,233 315,233 311,237" fill="#21262d"/>
+<polygon points="311,237 315,233 315,237 311,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.396s">
+<title>0 contributions on 2026-03-28</title>
+<rect x="315" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="315,237 319,233 329,233 325,237" fill="#21262d"/>
+<polygon points="325,237 329,233 329,237 325,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.408s">
+<title>0 contributions on 2026-04-04</title>
+<rect x="329" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="329,237 333,233 343,233 339,237" fill="#21262d"/>
+<polygon points="339,237 343,233 343,237 339,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.420s">
+<title>0 contributions on 2026-04-11</title>
+<rect x="343" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="343,237 347,233 357,233 353,237" fill="#21262d"/>
+<polygon points="353,237 357,233 357,237 353,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.432s">
+<title>1 contributions on 2026-04-18</title>
+<rect x="357" y="205" width="10" height="36" fill="#006d32"/>
+<polygon points="357,205 361,201 371,201 367,205" fill="#39d353"/>
+<polygon points="367,205 371,201 371,237 367,241" fill="#004d23"/>
+</g>
+<g class="b" style="animation-delay:0.444s">
+<title>0 contributions on 2026-04-25</title>
+<rect x="371" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="371,237 375,233 385,233 381,237" fill="#21262d"/>
+<polygon points="381,237 385,233 385,237 381,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.456s">
+<title>0 contributions on 2026-05-02</title>
+<rect x="385" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="385,237 389,233 399,233 395,237" fill="#21262d"/>
+<polygon points="395,237 399,233 399,237 395,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.468s">
+<title>0 contributions on 2026-05-09</title>
+<rect x="399" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="399,237 403,233 413,233 409,237" fill="#21262d"/>
+<polygon points="409,237 413,233 413,237 409,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.480s">
+<title>0 contributions on 2026-05-16</title>
+<rect x="413" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="413,237 417,233 427,233 423,237" fill="#21262d"/>
+<polygon points="423,237 427,233 427,237 423,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.492s">
+<title>0 contributions on 2026-05-23</title>
+<rect x="427" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="427,237 431,233 441,233 437,237" fill="#21262d"/>
+<polygon points="437,237 441,233 441,237 437,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.504s">
+<title>0 contributions on 2026-05-30</title>
+<rect x="441" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="441,237 445,233 455,233 451,237" fill="#21262d"/>
+<polygon points="451,237 455,233 455,237 451,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.516s">
+<title>0 contributions on 2026-06-06</title>
+<rect x="455" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="455,237 459,233 469,233 465,237" fill="#21262d"/>
+<polygon points="465,237 469,233 469,237 465,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.528s">
+<title>0 contributions on 2026-06-13</title>
+<rect x="469" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="469,237 473,233 483,233 479,237" fill="#21262d"/>
+<polygon points="479,237 483,233 483,237 479,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.540s">
+<title>0 contributions on 2026-06-20</title>
+<rect x="483" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="483,237 487,233 497,233 493,237" fill="#21262d"/>
+<polygon points="493,237 497,233 497,237 493,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.552s">
+<title>0 contributions on 2026-06-27</title>
+<rect x="497" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="497,237 501,233 511,233 507,237" fill="#21262d"/>
+<polygon points="507,237 511,233 511,237 507,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.564s">
+<title>0 contributions on 2026-07-04</title>
+<rect x="511" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="511,237 515,233 525,233 521,237" fill="#21262d"/>
+<polygon points="521,237 525,233 525,237 521,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.576s">
+<title>0 contributions on 2026-07-11</title>
+<rect x="525" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="525,237 529,233 539,233 535,237" fill="#21262d"/>
+<polygon points="535,237 539,233 539,237 535,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.588s">
+<title>0 contributions on 2026-07-18</title>
+<rect x="539" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="539,237 543,233 553,233 549,237" fill="#21262d"/>
+<polygon points="549,237 553,233 553,237 549,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.600s">
+<title>0 contributions on 2026-07-25</title>
+<rect x="553" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="553,237 557,233 567,233 563,237" fill="#21262d"/>
+<polygon points="563,237 567,233 567,237 563,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.612s">
+<title>0 contributions on 2026-08-01</title>
+<rect x="567" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="567,237 571,233 581,233 577,237" fill="#21262d"/>
+<polygon points="577,237 581,233 581,237 577,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.624s">
+<title>0 contributions on 2026-08-08</title>
+<rect x="581" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="581,237 585,233 595,233 591,237" fill="#21262d"/>
+<polygon points="591,237 595,233 595,237 591,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.636s">
+<title>0 contributions on 2026-08-15</title>
+<rect x="595" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="595,237 599,233 609,233 605,237" fill="#21262d"/>
+<polygon points="605,237 609,233 609,237 605,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.648s">
+<title>0 contributions on 2026-08-22</title>
+<rect x="609" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="609,237 613,233 623,233 619,237" fill="#21262d"/>
+<polygon points="619,237 623,233 623,237 619,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.660s">
+<title>0 contributions on 2026-08-29</title>
+<rect x="623" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="623,237 627,233 637,233 633,237" fill="#21262d"/>
+<polygon points="633,237 637,233 637,237 633,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.672s">
+<title>0 contributions on 2026-09-05</title>
+<rect x="637" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="637,237 641,233 651,233 647,237" fill="#21262d"/>
+<polygon points="647,237 651,233 651,237 647,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.684s">
+<title>0 contributions on 2026-09-12</title>
+<rect x="651" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="651,237 655,233 665,233 661,237" fill="#21262d"/>
+<polygon points="661,237 665,233 665,237 661,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.696s">
+<title>0 contributions on 2026-09-19</title>
+<rect x="665" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="665,237 669,233 679,233 675,237" fill="#21262d"/>
+<polygon points="675,237 679,233 679,237 675,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.708s">
+<title>0 contributions on 2026-09-26</title>
+<rect x="679" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="679,237 683,233 693,233 689,237" fill="#21262d"/>
+<polygon points="689,237 693,233 693,237 689,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.720s">
+<title>0 contributions on 2026-10-03</title>
+<rect x="693" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="693,237 697,233 707,233 703,237" fill="#21262d"/>
+<polygon points="703,237 707,233 707,237 703,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.732s">
+<title>0 contributions on 2026-10-10</title>
+<rect x="707" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="707,237 711,233 721,233 717,237" fill="#21262d"/>
+<polygon points="717,237 721,233 721,237 717,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.744s">
+<title>3 contributions on 2026-10-17</title>
+<rect x="721" y="188" width="10" height="53" fill="#39d353"/>
+<polygon points="721,188 725,184 735,184 731,188" fill="#7ee787"/>
+<polygon points="731,188 735,184 735,237 731,241" fill="#238636"/>
+</g>
+<g class="b" style="animation-delay:0.756s">
+<title>0 contributions on 2026-10-24</title>
+<rect x="735" y="237" width="10" height="4" fill="#161b22"/>
+<polygon points="735,237 739,233 749,233 745,237" fill="#21262d"/>
+<polygon points="745,237 749,233 749,237 745,241" fill="#0d1117"/>
+</g>
+<g class="b" style="animation-delay:0.9s"><polyline points="550,107 550,72 590,72" fill="none" stroke="#58a6ff" stroke-width="1.5"/><circle cx="550" cy="107" r="2.5" fill="#58a6ff"/><text x="596" y="76" fill="#ffffff" font-size="11">Peak: 15 commits (2026-07-06)</text></g>
+</svg>

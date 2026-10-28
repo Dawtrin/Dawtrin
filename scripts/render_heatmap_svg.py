@@ -3,6 +3,7 @@
 
 Rounded boxes reveal once with a diagonal line-after-line slide (CSS
 keyframes that play on load, then freeze). Less -> More legend + stats footer.
+Includes hover glow and native browser tooltips.
 
 Usage: python scripts/render_heatmap_svg.py
 Writes contrib-heatmap.svg.
@@ -25,7 +26,6 @@ STEP = 0.011  # diagonal stagger per (week+day)
 
 def level_for(day: dict) -> int:
     lvl = day["level"]
-    # stretch level 4 days into the neon top end when they're the best days
     return min(lvl + 1, 5) if lvl == 4 else lvl
 
 
@@ -34,7 +34,6 @@ def main() -> None:
         data = json.load(f)
     days = data["days"]
 
-    # column = week index, row = weekday (GitHub weeks start Sunday)
     first = dt.date.fromisoformat(days[0]["date"])
     start_week = first - dt.timedelta(days=(first.weekday() + 1) % 7)
     cells, month_marks = [], []
@@ -43,7 +42,7 @@ def main() -> None:
         date = dt.date.fromisoformat(d["date"])
         week = (date - start_week).days // 7
         row = (date.weekday() + 1) % 7
-        cells.append((week, row, level_for(d)))
+        cells.append((week, row, level_for(d), d["count"], d["date"]))
         if date.day <= 7:
             key = date.strftime("%Y-%m")
             if key not in seen_months:
@@ -58,10 +57,11 @@ def main() -> None:
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
         f'font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12">',
-        "<style>"
-        ".c{opacity:0;animation:drop .5s ease-out forwards}"
+        "<style>",
+        ".c{opacity:0;animation:drop .5s ease-out forwards;cursor:pointer}",
+        ".c:hover{stroke:#58a6ff;stroke-width:1.5px;filter:brightness(1.4)}",
         "@keyframes drop{from{opacity:0;transform:translate(-6px,-6px)}"
-        "to{opacity:1;transform:none}}"
+        "to{opacity:1;transform:none}}",
         "</style>",
         f'<rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="8" fill="{BG}" stroke="{BORDER}"/>',
     ]
@@ -75,13 +75,15 @@ def main() -> None:
             f'<text x="10" y="{TOP + row * (CELL + GAP) + CELL - 2}" fill="{DIM}">{label}</text>'
         )
 
-    for week, row, lvl in cells:
+    for week, row, lvl, count, date_str in cells:
         x = LEFT + week * (CELL + GAP)
         y = TOP + row * (CELL + GAP)
         delay = (week + row) * STEP
+        tip = f"{count} contributions on {date_str}"
         parts.append(
             f'<rect class="c" style="animation-delay:{delay:.3f}s" x="{x}" y="{y}" '
-            f'width="{CELL}" height="{CELL}" rx="3" fill="{PALETTE[lvl]}"/>'
+            f'width="{CELL}" height="{CELL}" rx="3" fill="{PALETTE[lvl]}">'
+            f'<title>{tip}</title></rect>'
         )
 
     # footer: stats left, Less -> More legend right
@@ -103,7 +105,7 @@ def main() -> None:
 
     with open("contrib-heatmap.svg", "w", encoding="utf-8") as f:
         f.write("\n".join(parts))
-    print(f"wrote contrib-heatmap.svg ({weeks} weeks)")
+    print(f"wrote contrib-heatmap.svg ({weeks} weeks with hover tooltips)")
 
 
 if __name__ == "__main__":
