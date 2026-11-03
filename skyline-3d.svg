@@ -6,7 +6,7 @@
 </style>
 <rect x="0.5" y="0.5" width="859" height="259" rx="8" fill="#0d1117" stroke="#30363d"/>
 <text x="24" y="28" fill="#c9d1d9" font-weight="bold">3D Skyline - Commit City</text>
-<text x="836" y="28" text-anchor="end" fill="#8b949e">85 contributions</text>
+<text x="836" y="28" text-anchor="end" fill="#8b949e">80 contributions</text>
 <g class="b" style="animation-delay:0.000s">
 <title>0 contributions on 2025-11-02</title>
 <rect x="45" y="201" width="10" height="4" fill="#161b22"/>
@@ -843,9 +843,9 @@
 </g>
 <g class="b" style="animation-delay:0.468s">
 <title>3 contributions on 2026-07-07</title>
-<rect x="527" y="164" width="10" height="53" fill="#0e4429"/>
-<polygon points="527,164 531,160 541,160 537,164" fill="#26a641"/>
-<polygon points="537,164 541,160 541,213 537,217" fill="#052614"/>
+<rect x="527" y="164" width="10" height="53" fill="#006d32"/>
+<polygon points="527,164 531,160 541,160 537,164" fill="#39d353"/>
+<polygon points="537,164 541,160 541,213 537,217" fill="#004d23"/>
 </g>
 <g class="b" style="animation-delay:0.480s">
 <title>0 contributions on 2026-07-14</title>
@@ -885,9 +885,9 @@
 </g>
 <g class="b" style="animation-delay:0.552s">
 <title>9 contributions on 2026-08-25</title>
-<rect x="625" y="133" width="10" height="84" fill="#26a641"/>
-<polygon points="625,133 629,129 639,129 635,133" fill="#56d364"/>
-<polygon points="635,133 639,129 639,213 635,217" fill="#196c2e"/>
+<rect x="625" y="133" width="10" height="84" fill="#39d353"/>
+<polygon points="625,133 629,129 639,129 635,133" fill="#7ee787"/>
+<polygon points="635,133 639,129 639,213 635,217" fill="#238636"/>
 </g>
 <g class="b" style="animation-delay:0.564s">
 <title>0 contributions on 2026-09-01</title>
@@ -1251,9 +1251,9 @@
 </g>
 <g class="b" style="animation-delay:0.684s">
 <title>7 contributions on 2026-10-28</title>
-<rect x="747" y="148" width="10" height="75" fill="#006d32"/>
-<polygon points="747,148 751,144 761,144 757,148" fill="#39d353"/>
-<polygon points="757,148 761,144 761,219 757,223" fill="#004d23"/>
+<rect x="747" y="148" width="10" height="75" fill="#39d353"/>
+<polygon points="747,148 751,144 761,144 757,148" fill="#7ee787"/>
+<polygon points="757,148 761,144 761,219 757,223" fill="#238636"/>
 </g>
 <g class="b" style="animation-delay:0.096s">
 <title>0 contributions on 2025-11-06</title>
@@ -1389,9 +1389,9 @@
 </g>
 <g class="b" style="animation-delay:0.360s">
 <title>3 contributions on 2026-04-09</title>
-<rect x="337" y="176" width="10" height="53" fill="#0e4429"/>
-<polygon points="337,176 341,172 351,172 347,176" fill="#26a641"/>
-<polygon points="347,176 351,172 351,225 347,229" fill="#052614"/>
+<rect x="337" y="176" width="10" height="53" fill="#006d32"/>
+<polygon points="337,176 341,172 351,172 347,176" fill="#39d353"/>
+<polygon points="347,176 351,172 351,225 347,229" fill="#004d23"/>
 </g>
 <g class="b" style="animation-delay:0.372s">
 <title>0 contributions on 2026-04-16</title>
@@ -1562,10 +1562,10 @@
 <polygon points="739,225 743,221 743,225 739,229" fill="#0d1117"/>
 </g>
 <g class="b" style="animation-delay:0.708s">
-<title>14 contributions on 2026-10-29</title>
-<rect x="743" y="128" width="10" height="101" fill="#39d353"/>
-<polygon points="743,128 747,124 757,124 753,128" fill="#7ee787"/>
-<polygon points="753,128 757,124 757,225 753,229" fill="#238636"/>
+<title>8 contributions on 2026-10-29</title>
+<rect x="743" y="150" width="10" height="79" fill="#39d353"/>
+<polygon points="743,150 747,146 757,146 753,150" fill="#7ee787"/>
+<polygon points="753,150 757,146 757,225 753,229" fill="#238636"/>
 </g>
 <g class="b" style="animation-delay:0.120s">
 <title>0 contributions on 2025-11-07</title>
@@ -2175,9 +2175,9 @@
 </g>
 <g class="b" style="animation-delay:0.732s">
 <title>3 contributions on 2026-10-17</title>
-<rect x="707" y="188" width="10" height="53" fill="#0e4429"/>
-<polygon points="707,188 711,184 721,184 717,188" fill="#26a641"/>
-<polygon points="717,188 721,184 721,237 717,241" fill="#052614"/>
+<rect x="707" y="188" width="10" height="53" fill="#006d32"/>
+<polygon points="707,188 711,184 721,184 717,188" fill="#39d353"/>
+<polygon points="717,188 721,184 721,237 717,241" fill="#004d23"/>
 </g>
 <g class="b" style="animation-delay:0.744s">
 <title>0 contributions on 2026-10-24</title>
